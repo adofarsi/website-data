@@ -2,7 +2,7 @@
 function custom_conferences_shortcode()
 {
     // URL or path to the JSON file
-    $jsonUrl = "https://github.com/adofarsi/website-data/blob/main/conferences.json?raw=true";
+    $jsonUrl = "https://github.com/adofarsi/website-data/blob/main/json/conferences.json?raw=true";
 
     // Fetch the JSON content
     $jsonContent = file_get_contents($jsonUrl);
