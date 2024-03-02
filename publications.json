@@ -4,125 +4,161 @@
         "authors": ["Farsi A", "Haben F", "Brantut N"],
         "title": "Fluid Transport Properties Heterogeneity Evolution During Fault Growth: Coupling Realistic Fluid Flow Simulations with Triaxial Experimental Data and Pore Pressure Heterogeneity Measurements",
         "publisher": "Under preparation",
-        "year": ""
+        "year": "",
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 17,
         "authors": ["Farsi A", "Zimmerman R", "Latham JP"],
         "title": "An efficient finite-discrete element method workflow for the simulation of circular boreholes in brittle poroelastic media",
         "publisher": "Under preparation",
-        "year": ""
+        "year": "",
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 16,
         "authors": ["Farsi A", "Xiang J", "Latham JP", "Carlsson M", "Stitt EH", "Marigo M"],
         "title": "Packing simulations of complex-shaped rigid particles using FDEM: An application to catalyst pellets",
         "publisher": "Powder Technology",
-        "year": 2021
+        "year": 2021,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 15,
         "authors": ["Farsi A", "Xiang J", "Latham JP", "Carlsson M", "Stitt EH", "Marigo M"],
         "title": "Strength and fragmentation behaviour of complex-shaped catalyst pellets: A numerical and experimental study",
         "publisher": "Chemical Engineering Science",
-        "year": 2020
+        "year": 2020,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 14,
         "authors": ["Farsi A", "Bedi A", "Latham JP"],
         "title": "Simulation of fracture propagation in fibre-reinforced concrete using FEMDEM: An application to tunnel linings",
         "publisher": "Computational Particle Mechanics",
-        "year": 2019
+        "year": 2019,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 13,
         "authors": ["Latham JP", "Xiang J", "Farsi A", "Joulin C", "Karantzoulis N"],
         "title": "A class of particulate problems suited to FDEM requiring accurate simulation of shape effects in packed granular structures",
         "publisher": "Computational Particle Mechanics",
-        "year": 2019
+        "year": 2019,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 12,
         "authors": ["Latham JP", "Farsi A", "Xiang J", "Clark E", "Bakker RR"],
         "title": "Numerical modelling of the influence of in-situ stress, rock strength and hole-profile geometry on the stability of Radial Water Jet Drill (RJD) boreholes",
         "publisher": "American Rock Mechanics Association (ARMA)",
-        "year": 2019
+        "year": 2019,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 11,
         "authors": ["Latham JP", "Farsi A", "Xiang J", "Chen B"],
         "title": "The Horizon 2020 Project SURE: Deliverable 7.2-Report on Laterals Stability Modelling",
         "publisher": "GFZ German Research Centre for Geosciences",
-        "year": 2019
+        "year": 2019,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 10,
         "authors": ["Xiang J", "Chen B", "Latham JP", "Farsi A"],
         "title": "The Horizon 2020 Project SURE: Deliverable 7.1 Report on Water Jet Drilling Modelling",
         "publisher": "GFZ German Research Centre for Geosciences",
-        "year": 2019
+        "year": 2019,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 9,
         "authors": ["Farsi A", "Xiang J", "Latham JP", "Pullen AD", "Carlsson M", "Stitt EH", "Marigo M"],
         "title": "Does shape matter? FEMDEM estimations of strength and post failure behaviour of catalyst supports",
         "publisher": "5th International Conference on Particle-based Methods",
-        "year": 2017
+        "year": 2017,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 8,
         "authors": ["Farsi A"],
         "title": "Numerical and experimental investigations of particle stress and fracture for complex-shaped pellets",
         "publisher": "Imperial College London",
-        "year": 2017
+        "year": 2017,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 7,
         "authors": ["Farsi A", "Pullen AD", "Latham JP", "Bowen J", "Carlsson M", "Stitt EH", "Marigo M"],
         "title": "Full deflection profile calculation and Young’s modulus optimisation for engineered high performance materials",
         "publisher": "Scientific Reports",
-        "year": 2017
+        "year": 2017,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 6,
         "authors": ["Farsi A", "Xiang J", "Latham JP", "Carlsson M", "Stitt EH", "Marigo M"],
         "title": "Simulation and characterisation of packed columns for cylindrical catalyst supports and other complex-shaped bodies",
         "publisher": "7th International Conference on Discrete Element Methods",
-        "year": 2016
+        "year": 2016,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 5,
         "authors": ["Farsi A", "Xiang J", "Latham JP", "Pullen AD", "Carlsson M", "Stitt EH", "Marigo M"],
         "title": "An application of the finite-discrete element method in the simulation of ceramic breakage: Methodology for a validation study for alumina specimens",
         "publisher": "4th International Conference on Particle-based Methods",
-        "year": 2015
+        "year": 2015,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 4,
         "authors": ["Latham JP", "Xiang J", "Farsi A"],
         "title": "Accurate modelling of particle shape effects in packed granular structures: a class of particulate problems solved by FEMDEM",
-        "publisher": "7th International Conference on Discrete Element Methods",
-        "year": 2016
+        "publisher": "Proceedings of the 7th International Conference on Discrete Element Methods",
+        "year": 2016,
+        "pdf": "",
+        "doi": ""
     },
     {
         "id": 3,
         "authors": ["Xiang J", "Latham JP", "Farsi A"],
         "title": "Algorithms and capabilities of Solidity to simulate interactions and packing of complex shapes",
-        "publisher": "7th International Conference on Discrete Element Methods",
-        "year": 2016
+        "publisher": "Proceedings of the 7th International Conference on Discrete Element Methods",
+        "year": 2016,
+        "pdf": "",
+        "doi": "https://doi.org/10.1007/978-981-10-1926-5_16"
     },
     {
         "id": 2,
         "authors": ["Farsi A"],
         "title": "Inverse analysis procedures and possible applications in drilling operations",
         "publisher": "Politecnico di Milano",
-        "year": 2013
+        "year": 2013,
+        "pdf": "",
+        "doi": "https://www.politesi.polimi.it/handle/10589/80927"
     },
     {
         "id": 1,
         "authors": ["Farsi A", "Busnelli, S"],
         "title": "Comparative analysis of three models of beams on elastic foundations",
         "publisher": "Politecnico di Milano",
-        "year": 2010
+        "year": 2010,
+        "pdf": "",
+        "doi": ""
     }
 ]
