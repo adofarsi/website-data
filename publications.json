@@ -41,8 +41,8 @@
         "title": "Simulation of fracture propagation in fibre-reinforced concrete using FEMDEM: An application to tunnel linings",
         "publisher": "Computational Particle Mechanics",
         "year": 2019,
-        "pdf": "",
-        "doi": ""
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/simulation_of_fracture_propagation_in_fibre-reinforced_concrete_using_fdem_an_application_to_tunnel_linings.pdf?raw=true",
+        "doi": "https://doi.org/10.1007/s40571-019-00305-5"
     },
     {
         "id": 13,
@@ -50,35 +50,35 @@
         "title": "A class of particulate problems suited to FDEM requiring accurate simulation of shape effects in packed granular structures",
         "publisher": "Computational Particle Mechanics",
         "year": 2019,
-        "pdf": "",
-        "doi": ""
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/a_class_of_particulate_problems_suited_to_fdem_requiring_accurate_simulation_of_shape_effects_in_packed_granular_structures.pdf?raw=true",
+        "doi": "https://doi.org/10.1007/s40571-019-00294-5"
     },
     {
         "id": 12,
         "authors": ["Latham JP", "Farsi A", "Xiang J", "Clark E", "Bakker RR"],
         "title": "Numerical modelling of the influence of in-situ stress, rock strength and hole-profile geometry on the stability of Radial Water Jet Drill (RJD) boreholes",
-        "publisher": "American Rock Mechanics Association (ARMA)",
+        "publisher": "American Rock Mechanics Association",
         "year": 2019,
-        "pdf": "",
-        "doi": ""
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/numerical_modelling_of_the_influence_of_in-situ_stress_rock_strength_and_hole-profile_geometry_on_the_stability_of_radial_water_jet_drill_(rjd)_boreholes.pdf?raw=true",
+        "doi": "https://onepetro.org/ARMAUSRMS/proceedings-pdf/ARMA19/All-ARMA19/ARMA-2019-1951/1133338/arma-2019-1951.pdf"
     },
     {
         "id": 11,
         "authors": ["Latham JP", "Farsi A", "Xiang J", "Chen B"],
-        "title": "The Horizon 2020 Project SURE: Deliverable 7.2-Report on Laterals Stability Modelling",
+        "title": "The Horizon 2020 Project SURE: Deliverable 7.2 - Report on Laterals Stability Modelling",
         "publisher": "GFZ German Research Centre for Geosciences",
         "year": 2019,
-        "pdf": "",
-        "doi": ""
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/the_horizon_2020_project_sure_deliverable_7-2_report_on_laterals_stability_modelling.pdf?raw=true",
+        "doi": "https://doi.org/10.2312/GFZ.4.8.2019.009"
     },
     {
         "id": 10,
         "authors": ["Xiang J", "Chen B", "Latham JP", "Farsi A"],
-        "title": "The Horizon 2020 Project SURE: Deliverable 7.1 Report on Water Jet Drilling Modelling",
+        "title": "The Horizon 2020 Project SURE: Deliverable 7.1 - Report on Water Jet Drilling Modelling",
         "publisher": "GFZ German Research Centre for Geosciences",
         "year": 2019,
-        "pdf": "",
-        "doi": ""
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/the_horizon_2020_project_sure_deliverable_7-1_report_on_water_jet_drilling_modelling.pdf?raw=true",
+        "doi": "https://doi.org/10.2312/gfz.4.8.2019.011"
     },
     {
         "id": 9,
@@ -86,7 +86,7 @@
         "title": "Does shape matter? FEMDEM estimations of strength and post failure behaviour of catalyst supports",
         "publisher": "5th International Conference on Particle-based Methods",
         "year": 2017,
-        "pdf": "",
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/does_shape_matter_femdem_estimations_of_strength_and_post_failure_behaviour_of_catalyst_supports.pdf?raw=true",
         "doi": ""
     },
     {
@@ -95,17 +95,17 @@
         "title": "Numerical and experimental investigations of particle stress and fracture for complex-shaped pellets",
         "publisher": "Imperial College London",
         "year": 2017,
-        "pdf": "",
-        "doi": ""
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/numerical_and_experimental_investigations_of_particle_stress_and_fracture_for_complex-shaped_pellets.pdf?raw=true",
+        "doi": "https://doi.org/10.25560/56994"
     },
     {
         "id": 7,
         "authors": ["Farsi A", "Pullen AD", "Latham JP", "Bowen J", "Carlsson M", "Stitt EH", "Marigo M"],
-        "title": "Full deflection profile calculation and Young’s modulus optimisation for engineered high performance materials",
+        "title": "Full deflection profile calculation and Young's modulus optimisation for engineered high performance materials",
         "publisher": "Scientific Reports",
         "year": 2017,
-        "pdf": "",
-        "doi": ""
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/full_deflection_profile_calculation_and_youngs_modulus_optimisation_for_engineered_high_performance_materials.pdf?raw=true",
+        "doi": "https://doi.org/10.1038/srep46190"
     },
     {
         "id": 6,
@@ -113,8 +113,8 @@
         "title": "Simulation and characterisation of packed columns for cylindrical catalyst supports and other complex-shaped bodies",
         "publisher": "7th International Conference on Discrete Element Methods",
         "year": 2016,
-        "pdf": "",
-        "doi": ""
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/simulation_and_characterisation_of_packed_columns_for_cylindrical_catalyst_supports_and_other_complex-shaped_bodies.pdf?raw=true",
+        "doi": "https://doi.org/10.1007/978-981-10-1926-5_42"
     },
     {
         "id": 5,
@@ -122,16 +122,16 @@
         "title": "An application of the finite-discrete element method in the simulation of ceramic breakage: Methodology for a validation study for alumina specimens",
         "publisher": "4th International Conference on Particle-based Methods",
         "year": 2015,
-        "pdf": "",
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/an_application_of_the_finite-discrete_element_method_in_the_simulation_of_ceramic_breakage_methodology_for_a_validation_study_for_alumina_specimens?raw=true",
         "doi": ""
     },
     {
         "id": 4,
         "authors": ["Latham JP", "Xiang J", "Farsi A"],
         "title": "Accurate modelling of particle shape effects in packed granular structures: a class of particulate problems solved by FEMDEM",
-        "publisher": "Proceedings of the 7th International Conference on Discrete Element Methods",
+        "publisher": "7th International Conference on Discrete Element Methods",
         "year": 2016,
-        "pdf": "",
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/accurate_modelling_of_particle_shape_effects_in_packed_granular_structures_a_class_of_femdem-suited_particulate_problems.pdf?raw=true",
         "doi": ""
     },
     {
@@ -140,7 +140,7 @@
         "title": "Algorithms and capabilities of Solidity to simulate interactions and packing of complex shapes",
         "publisher": "Proceedings of the 7th International Conference on Discrete Element Methods",
         "year": 2016,
-        "pdf": "",
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/algorithms_and_capabilities_of_solidityto_simulate_interactions_and_packing_of_complex_shapes.pdf?raw=true",
         "doi": "https://doi.org/10.1007/978-981-10-1926-5_16"
     },
     {
