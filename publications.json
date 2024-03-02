@@ -23,8 +23,8 @@
         "title": "Packing simulations of complex-shaped rigid particles using FDEM: An application to catalyst pellets",
         "publisher": "Powder Technology",
         "year": 2021,
-        "pdf": "",
-        "doi": ""
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/packing_simulations_of_complex-shaped_rigid_particles_using_fdem_an_application_to_catalyst_pellets.pdf?raw=true",
+        "doi": "https://doi.org/10.1016/j.powtec.2020.11.010"
     },
     {
         "id": 15,
@@ -32,8 +32,8 @@
         "title": "Strength and fragmentation behaviour of complex-shaped catalyst pellets: A numerical and experimental study",
         "publisher": "Chemical Engineering Science",
         "year": 2020,
-        "pdf": "",
-        "doi": ""
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/strength_and_fragmentation_behaviour_of_complex-shaped_catalyst_pellets_a_numerical_and_experimental_study.pdf?raw=true",
+        "doi": "https://doi.org/10.1016/j.ces.2019.115409"
     },
     {
         "id": 14,
