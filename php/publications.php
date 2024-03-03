@@ -1,5 +1,5 @@
 <?php
-function custom_conferences_shortcode()
+function custom_publications_shortcode()
 {
     // URL or path to the JSON file
     $jsonUrl = "https://github.com/adofarsi/website-data/blob/main/json/publications.json?raw=true";

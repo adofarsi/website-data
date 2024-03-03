@@ -1,23 +1,5 @@
 [
     {
-        "id": 18,
-        "authors": ["Farsi A", "Haben F", "Brantut N"],
-        "title": "Fluid Transport Properties Heterogeneity Evolution During Fault Growth: Coupling Realistic Fluid Flow Simulations with Triaxial Experimental Data and Pore Pressure Heterogeneity Measurements",
-        "publisher": "Under preparation",
-        "year": "-",
-        "pdf": "",
-        "doi": ""
-    },
-    {
-        "id": 17,
-        "authors": ["Farsi A", "Zimmerman R", "Latham JP"],
-        "title": "An efficient finite-discrete element method workflow for the simulation of circular boreholes in brittle poroelastic media",
-        "publisher": "Under preparation",
-        "year": "-",
-        "pdf": "",
-        "doi": ""
-    },
-    {
         "id": 16,
         "authors": ["Farsi A", "Xiang J", "Latham JP", "Carlsson M", "Stitt EH", "Marigo M"],
         "title": "Packing simulations of complex-shaped rigid particles using FDEM: An application to catalyst pellets",
