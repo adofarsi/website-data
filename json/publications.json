@@ -1,6 +1,15 @@
 [
     {
         "id": 16,
+        "authors": ["Bouziani N", "Ham DA", "Farsi A"],
+        "title": "Differentiable programming across the PDE and Machine Learning barrier",
+        "publisher": "Arxiv",
+        "year": 2024,
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/differentiable_programming_across_the_pde_and_machine_learning_barrier.pdf?raw=true",
+        "doi": "https://doi.org/10.48550/arXiv.2409.06085"
+    },
+    {
+        "id": 16,
         "authors": ["Farsi A", "Xiang J", "Latham JP", "Carlsson M", "Stitt EH", "Marigo M"],
         "title": "Packing simulations of complex-shaped rigid particles using FDEM: An application to catalyst pellets",
         "publisher": "Powder Technology",
