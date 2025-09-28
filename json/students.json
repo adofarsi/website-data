@@ -1,5 +1,50 @@
 [
     {
+        "id": "28",
+        "date_range": "June 2025 - September 2025",
+        "title": "Enhancing Simulation Performance and Interactive Web Applications",
+        "role": "Project writer, main supervisor",
+        "name": "Yulu Chen",
+        "degree": "Environmental Data Science and Machine Learning MSc",
+        "institution": "Imperial College London"
+    },
+    {
+        "id": "27",
+        "date_range": "June 2025 - September 2025",
+        "title": "Discontinuous Galerkin Implementation for Fractured Porous Media Flow in Firedrake",
+        "role": "Project writer, main supervisor",
+        "name": "Keyun Ma",
+        "degree": "Applied Computational Science & Engineering MSc",
+        "institution": "Imperial College London"
+    },
+    {
+        "id": "26",
+        "date_range": "June 2025 - September 2025",
+        "title": "Borehole Breakout Simulation and Interactive Web Application",
+        "role": "Project writer, main supervisor",
+        "name": "Jiayi Cui",
+        "degree": "Environmental Data Science and Machine Learning MSc",
+        "institution": "Imperial College London"
+    },
+    {
+        "id": "25",
+        "date_range": "June 2025 - September 2025",
+        "title": "Enhancing Simulation Performance and Interactive Web Applications",
+        "role": "Project writer, main supervisor",
+        "name": "Ao Shen",
+        "degree": "Environmental Data Science and Machine Learning MSc",
+        "institution": "Imperial College London"
+    },
+    {
+        "id": "24",
+        "date_range": "June 2025 - September 2025",
+        "title": "Contact Detection and Interaction in the Finite-Discrete Element Method",
+        "role": "Project writer, main supervisor",
+        "name": "Ananya Sinha",
+        "degree": "Environmental Data Science and Machine Learning MSc",
+        "institution": "Imperial College London"
+    },
+    {
         "id": "23",
         "date_range": "June 2024 - September 2024",
         "title": "Development of Interactive Web Applications Using Trame",
