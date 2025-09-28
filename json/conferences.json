@@ -1,5 +1,23 @@
 [
     {
+  "id": 23,
+  "name": "Firedrake '25",
+  "contribution": "Speaker and session chair",
+  "title": "Missing Physics Discovery through Fully Differentiable Finite Element-Based Machine Learning",
+  "link": "",
+  "location": "School of Mathematics, University of Leeds, Leeds, United Kingdom",
+  "date": "15-17 September 2025"
+    },
+    {
+    "id": 22,
+    "name": "18th U.S. National Congress on Computational Mechanics",
+    "contribution": "Speaker",
+    "title": "Universal FEM-based learning: embedding neural networks into PDEs as trainable operators for scientific machine learning",
+    "link": "",
+    "location": "Chicago Marriott Downtown Magnificent Mile, Chicago, Illinois",
+    "date": "20-24 July 2025"
+    },
+    {
         "id": 21,
         "name": "Firedrake '24",
         "contribution": "Speaker",
@@ -132,7 +150,7 @@
         "title": "",
         "link": "",
         "location": "Imago conference centre, Loughborough University, Loughborough, United Kingdom",
-        "date": "12-13 April 2015"
+        "date": "12-13 April 2016"
     },
     {
         "id": 6,
