@@ -1,5 +1,14 @@
 [
     {
+        "id": 18,
+        "authors": ["Aben FM", "Farsi A", "Brantut N"],
+        "title": "Permeability Development During Fault Growth and Slip in Granite",
+        "publisher": "Journal of Geophysical Research: Solid Earth",
+        "year": 2024,
+        "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/permeability_development_during_fault_growth_and_slip_in_granite.pdf?raw=true",
+        "doi": "https://doi.org/10.1029/2024JB029057"
+    },
+    {
         "id": 17,
         "authors": ["Bouziani N", "Ham DA", "Farsi A"],
         "title": "Differentiable programming across the PDE and Machine Learning barrier",
