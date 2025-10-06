@@ -270,7 +270,7 @@
     "degree": "Applied Computational Science & Engineering MSc",
     "institution": "Imperial College London",
     "gender": "m",
-    "current": "n"
+    "current": "-"
   },
   {
     "id": "7",
@@ -283,7 +283,7 @@
     "degree": "Geophysics MSci",
     "institution": "Imperial College London",
     "gender": "m",
-    "current": "n"
+    "current": "-"
   },
   {
     "id": "6",
@@ -309,7 +309,7 @@
     "degree": "Physics MSci",
     "institution": "Imperial College London",
     "gender": "m",
-    "current": "n"
+    "current": "-"
   },
   {
     "id": "4",
@@ -322,7 +322,7 @@
     "degree": "Geophysics MSci",
     "institution": "Imperial College London",
     "gender": "m",
-    "current": "n"
+    "current": "-"
   },
   {
     "id": "3",
@@ -335,7 +335,7 @@
     "degree": "Engineering MSc",
     "institution": "Technical University of Madrid",
     "gender": "f",
-    "current": "n"
+    "current": "-"
   },
   {
     "id": "2",
@@ -348,7 +348,7 @@
     "degree": "Geophysics MSci",
     "institution": "Imperial College London",
     "gender": "m",
-    "current": "n"
+    "current": "-"
   },
   {
     "id": "1",
@@ -361,6 +361,6 @@
     "degree": "Geology MSci",
     "institution": "Imperial College London",
     "gender": "f",
-    "current": "n"
+    "current": "-"
   }
 ]
