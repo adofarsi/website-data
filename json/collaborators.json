@@ -5,6 +5,7 @@
         "name": "Robert",
         "surname": "Zimmerman",
         "institution": "Imperial College London",
+        "gender": "m",
         "current": "y"
     },
     {
@@ -13,6 +14,7 @@
         "name": "David",
         "surname": "Ham",
         "institution": "Imperial College London",
+        "gender": "m",
         "current": "y"
     },
     {
@@ -21,6 +23,7 @@
         "name": "Nicolas",
         "surname": "Brantut",
         "institution": "GFZ Helmholtz Centre for Geosciences",
+        "gender": "m",
         "current": "y"
     },
     {
@@ -29,6 +32,7 @@
         "name": "Michel",
         "surname": "Tsamados",
         "institution": "University College London",
+        "gender": "m",
         "current": "y"
     },
     {
@@ -37,6 +41,7 @@
         "name": "Nacime",
         "surname": "Bouziani",
         "institution": "Amazon",
+        "gender": "m",
         "current": "y"
     },
     {
@@ -45,6 +50,7 @@
         "name": "Alberto",
         "surname": "Paganini",
         "institution": "University of Leicester",
+        "gender": "m",
         "current": "y"
     }
 ]
