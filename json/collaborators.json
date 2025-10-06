@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "title": "Prof.",
+        "title": "Prof",
         "name": "Robert",
         "surname": "Zimmerman",
         "institution": "Imperial College London",
@@ -10,7 +10,7 @@
     },
     {
         "id": "2",
-        "title": "Prof.",
+        "title": "Prof",
         "name": "David",
         "surname": "Ham",
         "institution": "Imperial College London",
@@ -19,7 +19,7 @@
     },
     {
         "id": "3",
-        "title": "Prof.",
+        "title": "Prof",
         "name": "Nicolas",
         "surname": "Brantut",
         "institution": "GFZ Helmholtz Centre for Geosciences",
@@ -28,7 +28,7 @@
     },
     {
         "id": "4",
-        "title": "Prof.",
+        "title": "Prof",
         "name": "Michel",
         "surname": "Tsamados",
         "institution": "University College London",
@@ -37,7 +37,7 @@
     },
     {
         "id": "5",
-        "title": "Dr.",
+        "title": "Dr",
         "name": "Nacime",
         "surname": "Bouziani",
         "institution": "Amazon",
@@ -46,7 +46,7 @@
     },
     {
         "id": "6",
-        "title": "Prof.",
+        "title": "Prof",
         "name": "Alberto",
         "surname": "Paganini",
         "institution": "University of Leicester",
