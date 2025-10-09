@@ -1,209 +1,312 @@
 [
-    {
-        "id": 23,
-        "name": "Firedrake '25",
-        "contribution": "Speaker and session chair",
-        "title": "Missing Physics Discovery through Fully Differentiable Finite Element-Based Machine Learning",
-        "link": "",
-        "location": "School of Mathematics, University of Leeds, Leeds, United Kingdom",
-        "date": "15-17 September 2025"
-    },
-    {
-        "id": 22,
-        "name": "18th U.S. National Congress on Computational Mechanics",
-        "contribution": "Speaker",
-        "title": "Universal FEM-based learning: embedding neural networks into PDEs as trainable operators for scientific machine learning",
-        "link": "",
-        "location": "Chicago Marriott Downtown Magnificent Mile, Chicago, Illinois",
-        "date": "20-24 July 2025"
-    },
-    {
-        "id": 21,
-        "name": "Firedrake '24",
-        "contribution": "Speaker",
-        "title": "Developing a Digital Twin of Westerly Granite to Investigate Fluid Transport and Heterogeneity During Fault Evolution",
-        "link": "",
-        "location": "Mathematical Institute, University of Oxford, Oxford, United Kingdom",
-        "date": "16-18 September 2024"
-    },
-    {
-        "id": 20,
-        "name": "9th European Congress on Computational Methods in Applied Sciences and Engineering",
-        "contribution": "Invited session organiser, chair and speaker",
-        "title": "",
-        "link": "",
-        "location": "Lisbon Congress Centre, Lisbon, Portugal",
-        "date": "3-7 June 2024"
-    },
-    {
-        "id": 19,
-        "name": "European Geosciences Union General Assembly",
-        "contribution": "Speaker",
-        "title": "",
-        "link": "",
-        "location": "Austria Center Vienna, Vienna, Austria",
-        "date": "14-19 April 2024"
-    },
-    {
-        "id": 18,
-        "name": "American Geophysical Union Fall Meeting",
-        "contribution": "Speaker",
-        "title": "",
-        "link": "",
-        "location": "Moscone Center, San Francisco, California",
-        "date": "11-15 December 2023"
-    },
-    {
-        "id": 17,
-        "name": "17th U. S. National Congress on Computational Mechanics",
-        "contribution": "Invited session organiser, chair and speaker",
-        "title": "",
-        "link": "",
-        "location": "Albuquerque, New Mexico",
-        "date": "23-27 July 2023"
-    },
-    {
-        "id": 16,
-        "name": "15th World Congress on Computational Mechanics",
-        "contribution": "Invited session organiser, chair and speaker",
-        "title": "",
-        "link": "",
-        "location": "Virtual Congress (Yokohama, Japan)",
-        "date": "1-5 August 2022"
-    },
-    {
-        "id": 15,
-        "name": "14th World Congress on Computational Mechanics",
-        "contribution": "Invited session organiser, chair and speaker",
-        "title": "",
-        "link": "",
-        "location": "Virtual Congress (Paris, France)",
-        "date": "11-15 January 2021"
-    },
-    {
-        "id": 14,
-        "name": "8th International Conference on Discrete Element Methods",
-        "contribution": "Presentation",
-        "title": "",
-        "link": "",
-        "location": "University of Twente, Enschede, The Netherlands",
-        "date": "22-26 July 2019"
-    },
-    {
-        "id": 13,
-        "name": "European Geothermal Congress 2019",
-        "contribution": "H2020 SURE meeting",
-        "title": "",
-        "link": "",
-        "location": "World Forum, The Hague, The Netherlands",
-        "date": "13th June 2019"
-    },
-    {
-        "id": 12,
-        "name": "13th World Congress on Computational Mechanics",
-        "contribution": "Presentation",
-        "title": "",
-        "link": "",
-        "location": "Marriott Marquis, New York City, New York",
-        "date": "22-27 July 2018"
-    },
-    {
-        "id": 11,
-        "name": "5th International Conference on Particle-Based Methods",
-        "contribution": "Invited presentation",
-        "title": "",
-        "link": "",
-        "location": "University of Hannover, Hannover, Germany",
-        "date": "26-28 September 2017"
-    },
-    {
-        "id": 10,
-        "name": "7th International Conference on Coupled Problems in Science and Engineering",
-        "contribution": "Invited presentation",
-        "title": "",
-        "link": "",
-        "location": "Rodos Palace International Convention Center, Rhodes, Greece",
-        "date": "12-14 June 2017"
-    },
-    {
-        "id": 9,
-        "name": "7th International Conference on Discrete Element Methods",
-        "contribution": "Presentation **Best Student Paper Award**",
-        "title": "",
-        "link": "",
-        "location": "Dalian University of Technology, Dalian, China",
-        "date": "1-4 August 2016"
-    },
-    {
-        "id": 8,
-        "name": "IFPRI Robert Pfeffer Symposium and UK Particle Technology Forum 2016",
-        "contribution": "Presentation",
-        "title": "",
-        "link": "",
-        "location": "University of Surrey, Guildford, United Kingdom",
-        "date": "15-16 June 2016"
-    },
-    {
-        "id": 7,
-        "name": "Johnson Matthey Academic Conference 2016",
-        "contribution": "Presentation",
-        "title": "",
-        "link": "",
-        "location": "Imago conference centre, Loughborough University, Loughborough, United Kingdom",
-        "date": "12-13 April 2016"
-    },
-    {
-        "id": 6,
-        "name": "4th International Conference on Particle-Based Methods",
-        "contribution": "Presentation",
-        "title": "",
-        "link": "",
-        "location": "Technical University of Catalonia, Barcelona, Spain",
-        "date": "28-30 September 2015"
-    },
-    {
-        "id": 5,
-        "name": "Johnson Matthey Academic Conference 2015",
-        "contribution": "Poster presentation",
-        "title": "",
-        "link": "",
-        "location": "Imago conference centre, Loughborough University, Loughborough, United Kingdom",
-        "date": "8-9 April 2015"
-    },
-    {
-        "id": 4,
-        "name": "12th UK Particle Technology Forum 2014",
-        "contribution": "Poster presentation",
-        "title": "",
-        "link": "",
-        "location": "Manchester conference centre, Manchester, United Kingdom",
-        "date": "16-17 September 2014"
-    },
-    {
-        "id": 3,
-        "name": "HERMES 2014",
-        "contribution": "Poster presentation",
-        "title": "",
-        "link": "",
-        "location": "Cumberland Lodge, Windsor, United Kingdom",
-        "date": "25-28 July 2014"
-    },
-    {
-        "id": 2,
-        "name": "Robert Pfeffer Symposium",
-        "contribution": "Poster presentation",
-        "title": "",
-        "link": "",
-        "location": "School of Engineering, University of Edinburgh, Edinburgh, United Kingdom",
-        "date": "25 June 2014"
-    },
-    {
-        "id": 1,
-        "name": "Johnson Matthey Academic Conference 2014",
-        "contribution": "Poster presentation",
-        "title": "",
-        "link": "",
-        "location": "Imago conference centre, Loughborough University, Loughborough, United Kingdom",
-        "date": "15-16 April 2014"
-    }
+  {
+    "id": 31,
+    "name": "Firedrake '25",
+    "contribution": "Speaker and session chair",
+    "title": "Missing Physics Discovery through Fully Differentiable Finite Element-Based Machine Learning",
+    "link": "",
+    "location": "School of Mathematics, University of Leeds, Leeds, United Kingdom",
+    "date": "15-17 September 2025",
+    "type": "conference"
+  },
+  {
+    "id": 30,
+    "name": "18th U.S. National Congress on Computational Mechanics",
+    "contribution": "Speaker",
+    "title": "Universal FEM-based learning: embedding neural networks into PDEs as trainable operators for scientific machine learning",
+    "link": "",
+    "location": "Chicago Marriott Downtown Magnificent Mile, Chicago, Illinois",
+    "date": "20-24 July 2025",
+    "type": "conference"
+  },
+  {
+    "id": 29,
+    "name": "School of Computing & Mathematical Sciences Seminars",
+    "contribution": "Invited seminar",
+    "title": "",
+    "link": "",
+    "location": "University of Greenwich, London, United Kingdom",
+    "date": "2 June 2025",
+    "type": "seminar"
+  },
+  {
+    "id": 28,
+    "name": "Department of Mathematical Sciences Seminars",
+    "contribution": "Invited seminar",
+    "title": "",
+    "link": "",
+    "location": "University of Bath, Bath, United Kingdom",
+    "date": "4 April 2025",
+    "type": "seminar"
+  },
+  {
+    "id": 27,
+    "name": "American Rock Mechanics Association (ARMA) Future Leaders",
+    "contribution": "Invited seminar",
+    "title": "Bridging Computational Mechanics and Machine Learning in Geomechanics: Insights for Subsurface Engineering",
+    "link": "",
+    "location": "Virtual",
+    "date": "27 March 2025",
+    "type": "seminar"
+  },
+  {
+    "id": 26,
+    "name": "Maths Seminars",
+    "contribution": "Invited seminar",
+    "title": "Finite Element-Based Physics-Informed Machine Learning: Applications to Fluid and Solid Mechanics",
+    "link": "",
+    "location": "University of Leicester, Leicester, United Kingdom",
+    "date": "26 February 2025",
+    "type": "seminar"
+  },
+  {
+    "id": 25,
+    "name": "Geomechanics Knowledge Meetings",
+    "contribution": "Invited seminar",
+    "title": "Bridging Computational Mechanics and Machine Learning in Geomechanics: Insights for Subsurface Engineering",
+    "link": "",
+    "location": "Netherlands Organisation for Applied Scientific Research (TNO), Utrecht, Netherlands",
+    "date": "30 January 2025",
+    "type": "seminar"
+  },
+  {
+    "id": 24,
+    "name": "Firedrake '24",
+    "contribution": "Speaker",
+    "title": "Developing a Digital Twin of Westerly Granite to Investigate Fluid Transport and Heterogeneity During Fault Evolution",
+    "link": "",
+    "location": "Mathematical Institute, University of Oxford, Oxford, United Kingdom",
+    "date": "16-18 September 2024",
+    "type": "conference"
+  },
+  {
+    "id": 23,
+    "name": "9th European Congress on Computational Methods in Applied Sciences and Engineering",
+    "contribution": "Invited session organiser, chair and speaker",
+    "title": "",
+    "link": "",
+    "location": "Lisbon Congress Centre, Lisbon, Portugal",
+    "date": "3-7 June 2024",
+    "type": "conference"
+  },
+  {
+    "id": 22,
+    "name": "European Geosciences Union General Assembly",
+    "contribution": "Speaker",
+    "title": "",
+    "link": "",
+    "location": "Austria Center Vienna, Vienna, Austria",
+    "date": "14-19 April 2024",
+    "type": "conference"
+  },
+  {
+    "id": 21,
+    "name": "American Geophysical Union Fall Meeting",
+    "contribution": "Speaker",
+    "title": "",
+    "link": "",
+    "location": "Moscone Center, San Francisco, California",
+    "date": "11-15 December 2023",
+    "type": "conference"
+  },
+  {
+    "id": 20,
+    "name": "17th U. S. National Congress on Computational Mechanics",
+    "contribution": "Invited session organiser, chair and speaker",
+    "title": "",
+    "link": "",
+    "location": "Albuquerque, New Mexico",
+    "date": "23-27 July 2023",
+    "type": "conference"
+  },
+  {
+    "id": 19,
+    "name": "15th World Congress on Computational Mechanics",
+    "contribution": "Invited session organiser, chair and speaker",
+    "title": "",
+    "link": "",
+    "location": "Virtual Congress (Yokohama, Japan)",
+    "date": "1-5 August 2022",
+    "type": "conference"
+  },
+  {
+    "id": 18,
+    "name": "14th World Congress on Computational Mechanics",
+    "contribution": "Invited session organiser, chair and speaker",
+    "title": "",
+    "link": "",
+    "location": "Virtual Congress (Paris, France)",
+    "date": "11-15 January 2021",
+    "type": "conference"
+  },
+  {
+    "id": 17,
+    "name": "8th International Conference on Discrete Element Methods",
+    "contribution": "Speaker",
+    "title": "",
+    "link": "",
+    "location": "University of Twente, Enschede, The Netherlands",
+    "date": "22-26 July 2019",
+    "type": "conference"
+  },
+  {
+    "id": 16,
+    "name": "European Geothermal Congress 2019",
+    "contribution": "H2020 SURE meeting",
+    "title": "",
+    "link": "",
+    "location": "World Forum, The Hague, The Netherlands",
+    "date": "13th June 2019",
+    "type": "conference"
+  },
+  {
+    "id": 15,
+    "name": "13th World Congress on Computational Mechanics",
+    "contribution": "Speaker",
+    "title": "",
+    "link": "",
+    "location": "Marriott Marquis, New York City, New York",
+    "date": "22-27 July 2018",
+    "type": "conference"
+  },
+  {
+    "id": 14,
+    "name": "5th International Conference on Particle-Based Methods",
+    "contribution": "Invited presentation",
+    "title": "",
+    "link": "",
+    "location": "University of Hannover, Hannover, Germany",
+    "date": "26-28 September 2017",
+    "type": "conference"
+  },
+  {
+    "id": 13,
+    "name": "7th International Conference on Coupled Problems in Science and Engineering",
+    "contribution": "Invited presentation",
+    "title": "",
+    "link": "",
+    "location": "Rodos Palace International Convention Center, Rhodes, Greece",
+    "date": "12-14 June 2017",
+    "type": "conference"
+  },
+  {
+    "id": 12,
+    "name": "7th International Conference on Discrete Element Methods",
+    "contribution": "Speaker **Best Student Paper Award**",
+    "title": "",
+    "link": "",
+    "location": "Dalian University of Technology, Dalian, China",
+    "date": "1-4 August 2016",
+    "type": "conference"
+  },
+  {
+    "id": 11,
+    "name": "IFPRI Robert Pfeffer Symposium and UK Particle Technology Forum 2016",
+    "contribution": "Speaker",
+    "title": "",
+    "link": "",
+    "location": "University of Surrey, Guildford, United Kingdom",
+    "date": "15-16 June 2016",
+    "type": "conference"
+  },
+  {
+    "id": 10,
+    "name": "Johnson Matthey Academic Conference 2016",
+    "contribution": "Speaker",
+    "title": "",
+    "link": "",
+    "location": "Imago conference centre, Loughborough University, Loughborough, United Kingdom",
+    "date": "12-13 April 2016",
+    "type": "conference"
+  },
+  {
+    "id": 9,
+    "name": "4th International Conference on Particle-Based Methods",
+    "contribution": "Speaker",
+    "title": "",
+    "link": "",
+    "location": "Technical University of Catalonia, Barcelona, Spain",
+    "date": "28-30 September 2015",
+    "type": "conference"
+  },
+  {
+    "id": 8,
+    "name": "Science Forum",
+    "contribution": "Invited seminar",
+    "title": "",
+    "link": "",
+    "location": "Johnson Matthey Technology Centre, Belasis Technology Park, Billingham, United Kingdom",
+    "date": "10 July 2015",
+    "type": "seminar"
+  },
+  {
+    "id": 7,
+    "name": "Johnson Matthey Academic Conference 2015",
+    "contribution": "Poster presentation",
+    "title": "",
+    "link": "",
+    "location": "Imago conference centre, Loughborough University, Loughborough, United Kingdom",
+    "date": "8-9 April 2015",
+    "type": "conference"
+  },
+  {
+    "id": 6,
+    "name": "Energy and Resources Seminars",
+    "contribution": "Invited seminar",
+    "title": "",
+    "link": "",
+    "location": "Imperial College London, South Kensington Campus, London, United Kingdom",
+    "date": "31 March 2015",
+    "type": "seminar"
+  },
+  {
+    "id": 5,
+    "name": "12th UK Particle Technology Forum 2014",
+    "contribution": "Poster presentation",
+    "title": "",
+    "link": "",
+    "location": "Manchester conference centre, Manchester, United Kingdom",
+    "date": "16-17 September 2014",
+    "type": "conference"
+  },
+  {
+    "id": 4,
+    "name": "HERMES 2014",
+    "contribution": "Poster presentation",
+    "title": "",
+    "link": "",
+    "location": "Cumberland Lodge, Windsor, United Kingdom",
+    "date": "25-28 July 2014",
+    "type": "conference"
+  },
+  {
+    "id": 3,
+    "name": "Robert Pfeffer Symposium",
+    "contribution": "Poster presentation",
+    "title": "",
+    "link": "",
+    "location": "School of Engineering, University of Edinburgh, Edinburgh, United Kingdom",
+    "date": "25 June 2014",
+    "type": "conference"
+  },
+  {
+    "id": 2,
+    "name": "Johnson Matthey Academic Conference 2014",
+    "contribution": "Poster presentation",
+    "title": "",
+    "link": "",
+    "location": "Imago conference centre, Loughborough University, Loughborough, United Kingdom",
+    "date": "15-16 April 2014",
+    "type": "conference"
+  },
+  {
+    "id": 1,
+    "name": "Applied Modelling & Computation Group (AMCG) Seminars",
+    "contribution": "Invited seminar",
+    "title": "",
+    "link": "",
+    "location": "Imperial College London, South Kensington Campus, London, United Kingdom",
+    "date": "1 November 2013",
+    "type": "seminar"
+  }
 ]
