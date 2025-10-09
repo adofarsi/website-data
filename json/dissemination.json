@@ -1,4 +1,14 @@
 [
+    {
+    "id": 32,
+    "name": "Global Geophysics Seminar Series",
+    "contribution": "Invited seminar",
+    "title": "Computational Mechanics and Machine Learning in Geomechanics: Toward Experimentally Informed Physics-Based Models",
+    "link": "",
+    "location": "Department of Earth Sciences, University College London, London, United Kingdom",
+    "date": "23 October 2025",
+    "type": "seminar"
+  },
   {
     "id": 31,
     "name": "Firedrake '25",
