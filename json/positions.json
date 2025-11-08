@@ -1,0 +1,92 @@
+[
+{
+    "organisation": "Tanuki Technologies",
+    "city": "London",
+    "country": "UK",
+    "title": "Co-Founder & Lead Software Engineer",
+    "start_date": "February 2022",
+    "end_date": "present",
+    "description": "Developer of tanuki™/PyFDEM, the first parallel, high-performance, pure-Python finite-discrete element code; showcased at the 9th European Congress on Computational Methods in Applied Sciences and Engineering and the 17th US National Congress on Computational Mechanics. Tanuki is a partner in the £10 million RASI project, utilising FDEM models to simulate Arctic sea ice dynamics. Developed practical rheological models to predict plastic viscosity and yield stress from mix composition parameters of fresh concrete as part of a consultancy for Cloud Cycle."
+},
+{
+    "organisation": "University College London",
+    "city": "London",
+    "country": "UK",
+    "title": "Research Fellow Co-Investigator - Sea Ice Modelling",
+    "start_date": "June 2025",
+    "end_date": "present",
+    "description": "Working on the Re-Thickening Arctic Sea Ice project, funded by ARIA (UK R&D funding agency), with a total project value of £10 million. Co-Investigator on the work package developing advanced, high-performance computational tools for simulating sea ice mechanical behaviour."
+},
+{
+    "organisation": "University College London",
+    "city": "London",
+    "country": "UK",
+    "title": "Research Fellow - Machine Learning Applications in Fluid Flow in Rock Faults",
+    "start_date": "January 2023",
+    "end_date": "June 2024",
+    "description": "Developed a digital twin of Westerly granite samples using an adjoint-based machine-learning framework to study the evolution of fluid transport properties and heterogeneity during fault development. Presented this research in talks at the American Geophysical Union (AGU) and European Geosciences Union (EGU) conferences. Resulted in a journal publication and another under submission."
+},
+{
+    "organisation": "Imperial College London",
+    "city": "London",
+    "country": "UK",
+    "title": "Visiting Researcher",
+    "start_date": "July 2022",
+    "end_date": "present",
+    "description": "Contributing to teaching on the Applied Computational Science & Engineering MSc, Environmental Data Science and Machine Learning MSc, and Geo-Energy with Machine Learning and Data Science MSc. Main supervisor for fewer than 20 postgraduate students."
+},
+{
+    "organisation": "Imperial College Consultants",
+    "city": "London",
+    "country": "UK",
+    "title": "Lead Consultant",
+    "start_date": "February 2021",
+    "end_date": "March 2022",
+    "description": "Developed numerical models to assess mechanical properties of building materials using IoT sensor data for Cloud Cycle."
+},
+{
+    "organisation": "Imperial College London",
+    "city": "London",
+    "country": "UK",
+    "title": "Research Associate - Wellbore Stability",
+    "start_date": "April 2020",
+    "end_date": "July 2022",
+    "description": "Main researcher on a project fully funded by Petronas. Developed a coupled poroelastic simulation tool to reduce solids production during gas extraction from carbonate reservoirs. Directed experiments on carbonate rock samples conducted at FracTech UK for validation of numerical simulations. Ran comparisons of triaxial tests and advanced thick-walled cylinder tests and corresponding simulations. Delivered a technical report to Petronas."
+},
+{
+    "organisation": "Imperial College London",
+    "city": "London",
+    "country": "UK",
+    "title": "Research Associate - Shoreline Structures Integrity",
+    "start_date": "July 2019",
+    "end_date": "March 2020",
+    "description": "Developed a computational tool to quantify damage to coastal defence structures (e.g., mass losses) in a project funded by the EPSRC Impact Acceleration Account. A live example shows a severely damaged concrete breakwater."
+},
+{
+    "organisation": "Imperial College London",
+    "city": "London",
+    "country": "UK",
+    "title": "Research Associate - Geothermal Wells",
+    "start_date": "December 2018",
+    "end_date": "June 2019",
+    "description": "Worked on research aimed at developing new technologies to enhance the performance of geothermal wells, as part of a project fully funded by the European Commission. Submitted a technical report to the European Commission and released two scientific publications."
+},
+{
+    "organisation": "Imperial College London",
+    "city": "London",
+    "country": "UK",
+    "title": "Research Associate - Hydrogen Reactor Components",
+    "start_date": "July 2017",
+    "end_date": "January 2019",
+    "description": "Worked with Johnson Matthey across multiple departments. Collaborated with the Johnson Matthey Technology Centre on mechanical characterisation of catalyst supports and numerical modelling for pellet optimisation. Worked with the R&D team within the Steam Reforming department to model the packing of reactor tubes and deliver purpose-built software for in-house design and engineering applications. These projects resulted in three journal publications and several conference papers."
+},
+{
+    "organisation": "Imperial College London",
+    "city": "London",
+    "country": "UK",
+    "title": "Research Associate - Fibre-Reinforced Concrete Tunnels",
+    "start_date": "July 2017",
+    "end_date": "January 2018",
+    "description": "Worked on an R&D project in collaboration with Transport for London and Bedi Consulting. Analysed fracture propagation in fibre-reinforced lined tunnels, as part of a project fully funded by the Institution of Civil Engineers (ICE). Submitted a technical report to ICE and a peer-reviewed publication in Computational Particle Mechanics."
+}
+]
