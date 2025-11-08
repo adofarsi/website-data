@@ -1,0 +1,55 @@
+[
+{
+    "year": 2025,
+    "funder": "Advanced Research and Invention Agency (ARIA)",
+    "project": "Re-thickening Arctic Sea Ice",
+    "amount": { "value_gbp": 10000000, "display": "£10M", "currency": "GBP" },
+    "role": "Co-Investigator"
+},
+{
+    "year": 2023,
+    "funder": "Cloud Cycle",
+    "project": "Rheological Models for Fresh Concrete",
+    "amount": { "value_gbp": 15000, "display": "£15k", "currency": "GBP" },
+    "role": "Lead Consultant"
+},
+{
+    "year": 2021,
+    "funder": "Cloud Cycle",
+    "project": "Machine Learning Models for Building Materials Using IoT Sensors",
+    "amount": { "value_gbp": 50000, "display": "£50k", "currency": "GBP" },
+    "role": "Lead Consultant"
+},
+{
+    "year": 2020,
+    "funder": "Dame Julia Higgins Engineering Postdoc Collaborative Research Fund",
+    "amount": { "value_gbp": 6355, "display": "£6,355", "currency": "GBP" },
+    "role": "Principal Investigator"
+},
+{
+    "year": 2019,
+    "funder": "Petronas Research Sdn. Bhd.",
+    "project": "Carbonate Rock Failure and Solids Production Prediction",
+    "amount": { "value_gbp": 700000, "display": "£700k", "currency": "GBP" },
+    "role": "Named Postdoc"
+},
+{
+    "year": 2019,
+    "funder": "DEM Plus Software Licence and Training",
+    "amount": { "value_gbp": 25000, "display": "£25k", "currency": "GBP" },
+    "role": "Software, user manual, training"
+},
+{
+    "year": 2018,
+    "funder": "EPSRC Impact Acceleration Account EP/R511547/1",
+    "project": "DEM Plus - Complex Shape Packer",
+    "amount": { "value_gbp": 75000, "display": "£75k", "currency": "GBP" },
+    "role": "Named Postdoc"
+},
+{
+    "year": 2017,
+    "funder": "ICE Research and Development Enabling Fund Award",
+    "amount": { "value_gbp": 25000, "display": "£25k", "currency": "GBP" },
+    "role": "Co-Investigator"
+}
+]
