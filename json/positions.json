@@ -1,14 +1,5 @@
 [
 {
-    "organisation": "Tanuki Technologies",
-    "city": "London",
-    "country": "UK",
-    "title": "Co-Founder & Lead Software Engineer",
-    "start_date": "February 2022",
-    "end_date": "present",
-    "description": "Developer of tanuki™/PyFDEM, the first parallel, high-performance, pure-Python finite-discrete element code; showcased at the 9th European Congress on Computational Methods in Applied Sciences and Engineering and the 17th US National Congress on Computational Mechanics. Tanuki is a partner in the £10 million RASI project, utilising FDEM models to simulate Arctic sea ice dynamics. Developed practical rheological models to predict plastic viscosity and yield stress from mix composition parameters of fresh concrete as part of a consultancy for Cloud Cycle."
-},
-{
     "organisation": "University College London",
     "city": "London",
     "country": "UK",
@@ -34,6 +25,15 @@
     "start_date": "July 2022",
     "end_date": "present",
     "description": "Contributing to teaching on the Applied Computational Science & Engineering MSc, Environmental Data Science and Machine Learning MSc, and Geo-Energy with Machine Learning and Data Science MSc. Main supervisor for fewer than 20 postgraduate students."
+},
+{
+    "organisation": "Tanuki Technologies",
+    "city": "London",
+    "country": "UK",
+    "title": "Co-Founder & Lead Software Engineer",
+    "start_date": "February 2022",
+    "end_date": "present",
+    "description": "Developer of tanuki™/PyFDEM, the first parallel, high-performance, pure-Python finite-discrete element code; showcased at the 9th European Congress on Computational Methods in Applied Sciences and Engineering and the 17th US National Congress on Computational Mechanics. Tanuki is a partner in the £10 million RASI project, utilising FDEM models to simulate Arctic sea ice dynamics. Developed practical rheological models to predict plastic viscosity and yield stress from mix composition parameters of fresh concrete as part of a consultancy for Cloud Cycle."
 },
 {
     "organisation": "Imperial College Consultants",
