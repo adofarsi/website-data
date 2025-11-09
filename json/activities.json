@@ -1,14 +1,14 @@
 [
 {
     "organisation": "UCL Global Geophysics Seminar Series",
-    "role": "Organiser",
+    "role": "Seminar Organiser",
     "start_date": "August 2022",
-    "end_date": "ongoing",
+    "end_date": "present",
     "description": "Inviting speakers and organising seminars on various topics in geophysics."
 },
 {
     "organisation": "US Association for Computational Mechanics (USACM)",
-    "role": "Corresponding Organiser",
+    "role": "Corresponding Conference Organiser",
     "start_date": "August 2022",
     "end_date": "August 2023",
     "description": "Organiser of a mini symposium at the US National Congress on Computational Mechanics."
@@ -36,7 +36,7 @@
 },
 {
     "organisation": "European Community on Computational Methods in Applied Sciences and Engineering (ECCOMAS)",
-    "role": "Corresponding Organiser",
+    "role": "Corresponding Conference Organiser",
     "start_date": "August 2019",
     "end_date": "August 2024",
     "description": "Organiser of a mini symposia at the World Congress in Computational Mechanics and European Congress on Computational Methods in Applied Sciences and Engineering."
