@@ -1,6 +1,6 @@
 [
     {
-    "id": 19,
+    "id": 20,
     "authors": ["Aben FM", "Farsi A", "Brantut N"],
     "title": "Permeability Development During Fault Growth and Slip in Granite",
     "publisher": "Journal of Geophysical Research: Solid Earth",
@@ -9,13 +9,22 @@
     "doi": "https://doi.org/10.1029/2024JB029057"
     },
     {
-    "id": 18,
+    "id": 19,
     "authors": ["Bouziani N", "Ham DA", "Farsi A"],
     "title": "Differentiable programming across the PDE and Machine Learning barrier",
     "publisher": "Arxiv",
     "year": 2024,
     "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/differentiable_programming_across_the_pde_and_machine_learning_barrier.pdf?raw=true",
     "doi": "https://doi.org/10.48550/arXiv.2409.06085"
+    },
+    {
+    "id": 18,
+    "authors": ["Farsi A", "Latham JP", "Zimmerman R"],
+    "title": "Carbonate Rock Failure and Solids Production:Onset, Rate, and Volume Predictions",
+    "publisher": "PETRONAS-Imperial Centre for Engineering of Multiphase Systems Final Report",
+    "year": 2022,
+    "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/carbonate_rock_failure_and_solids_production_onset_rate_and_volume_predictions.pdf?raw=true",
+    "doi": ""
     },
     {
     "id": 17,
