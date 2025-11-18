@@ -56,7 +56,7 @@
     {
     "id": 15,
     "authors": ["Farsi A", "Bedi A", "Latham JP"],
-    "title": "Simulation of fracture propagation in fibre-reinforced concrete using FEMDEM: An application to tunnel linings",
+    "title": "Simulation of fracture propagation in fibre-reinforced concrete using FDEM: An application to tunnel linings",
     "publisher": "Computational Particle Mechanics",
     "year": 2019,
     "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/simulation_of_fracture_propagation_in_fibre-reinforced_concrete_using_fdem_an_application_to_tunnel_linings.pdf?raw=true",
@@ -145,20 +145,20 @@
     },
     {
     "id": 5,
-    "authors": ["Farsi A", "Xiang J", "Latham JP", "Pullen AD", "Carlsson M", "Stitt EH", "Marigo M"],
-    "title": "An application of the finite-discrete element method in the simulation of ceramic breakage: Methodology for a validation study for alumina specimens",
-    "publisher": "4th International Conference on Particle-based Methods",
-    "year": 2015,
-    "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/an_application_of_the_finite-discrete_element_method_in_the_simulation_of_ceramic_breakage_methodology_for_a_validation_study_for_alumina_specimens.pdf?raw=true",
-    "doi": ""
-    },
-    {
-    "id": 4,
     "authors": ["Latham JP", "Xiang J", "Farsi A"],
     "title": "Accurate modelling of particle shape effects in packed granular structures: a class of particulate problems solved by FEMDEM",
     "publisher": "7th International Conference on Discrete Element Methods",
     "year": 2016,
     "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/accurate_modelling_of_particle_shape_effects_in_packed_granular_structures_a_class_of_femdem-suited_particulate_problems.pdf?raw=true",
+    "doi": ""
+    },
+    {
+    "id": 4,
+    "authors": ["Farsi A", "Xiang J", "Latham JP", "Pullen AD", "Carlsson M", "Stitt EH", "Marigo M"],
+    "title": "An application of the finite-discrete element method in the simulation of ceramic breakage: Methodology for a validation study for alumina specimens",
+    "publisher": "4th International Conference on Particle-based Methods",
+    "year": 2015,
+    "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/an_application_of_the_finite-discrete_element_method_in_the_simulation_of_ceramic_breakage_methodology_for_a_validation_study_for_alumina_specimens.pdf?raw=true",
     "doi": ""
     },
     {
