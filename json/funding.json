@@ -1,5 +1,13 @@
 [
 {
+    "year": 2026,
+    "funder": "University of Leicester Impact Development Fund",
+    "project": "Numerical Optimal Design Subject to Physical Constraints",
+    "value_gbp": 4762,
+    "value_display": "£5k",
+    "role": "Named Postdoc"
+},
+{
     "year": 2025,
     "funder": "Advanced Research and Invention Agency",
     "project": "Re-thickening Arctic Sea Ice",
