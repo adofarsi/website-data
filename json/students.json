@@ -1,5 +1,18 @@
 [
   {
+    "id": "29",
+    "start_date": "May 2026",
+    "end_date": "September 2026",
+    "title": "Geomechanics and Fractured Porous Media Flow Modelling",
+    "role": "Project writer, main supervisor",
+    "name": "Jiachen",
+    "surname": "Zhou",
+    "degree": "Geo-Energy with Machine Learning and Data Science MSc",
+    "institution": "Imperial College London",
+    "gender": "m",
+    "current": "y"
+  },
+  {
     "id": "28",
     "start_date": "June 2025",
     "end_date": "September 2025",
@@ -10,7 +23,7 @@
     "degree": "Environmental Data Science and Machine Learning MSc",
     "institution": "Imperial College London",
     "gender": "f",
-    "current": "y"
+    "current": "n"
   },
   {
     "id": "27",
@@ -23,7 +36,7 @@
     "degree": "Applied Computational Science and Engineering MSc",
     "institution": "Imperial College London",
     "gender": "f",
-    "current": "y"
+    "current": "n"
   },
   {
     "id": "26",
@@ -36,7 +49,7 @@
     "degree": "Environmental Data Science and Machine Learning MSc",
     "institution": "Imperial College London",
     "gender": "m",
-    "current": "y"
+    "current": "n"
   },
   {
     "id": "25",
@@ -49,7 +62,7 @@
     "degree": "Environmental Data Science and Machine Learning MSc",
     "institution": "Imperial College London",
     "gender": "m",
-    "current": "y"
+    "current": "n"
   },
   {
     "id": "24",
@@ -62,7 +75,7 @@
     "degree": "Environmental Data Science and Machine Learning MSc",
     "institution": "Imperial College London",
     "gender": "f",
-    "current": "y"
+    "current": "n"
   },
   {
     "id": "23",
