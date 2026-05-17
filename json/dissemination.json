@@ -1,5 +1,15 @@
 [
     {
+    "id": 34,
+    "name": "PETSc and Firedrake '26",
+    "contribution": "Speaker",
+    "title": "Missing Physics Discovery through Fully Differentiable Finite Element-Based Machine Learning",
+    "link": "",
+    "location": "Mercure Oxford Hawkwell House, Oxford, United Kingdom",
+    "date": "3-5 June 2026",
+    "type": "conference"
+    },
+    {
     "id": 33,
     "name": "Multi-Physics Simulations on the GPU in the Age of AI",
     "contribution": "Invited speaker",
