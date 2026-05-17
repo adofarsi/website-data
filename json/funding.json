@@ -1,6 +1,14 @@
 [
 {
     "year": 2026,
+    "funder": "Science and Technology Facilities Council (STFC), UKRI - CoSeC NPRAISE",
+    "project": "Hybrid Differentiable ML/AI-Physics Simulation Capabilities in Firedrake",
+    "value_gbp": 79998,
+    "value_display": "£80k",
+    "role": "Co-Investigator"
+},
+{
+    "year": 2026,
     "funder": "University of Leicester Impact Development Fund",
     "project": "Numerical Optimal Design Subject to Physical Constraints",
     "value_gbp": 4762,

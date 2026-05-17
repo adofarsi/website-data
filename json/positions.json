@@ -1,5 +1,14 @@
 [
 {
+    "organisation": "Imperial College London",
+    "city": "London",
+    "country": "UK",
+    "title": "Research Associate Co-Investigator - Hybrid Differentiable ML/AI-Physics Simulation",
+    "start_date": "September 2026",
+    "end_date": "August 2027",
+    "description": "Funded by the Science and Technology Facilities Council (STFC) via the CoSeC NPRAISE programme, working with Prof. David Ham. Developing hybrid differentiable ML/AI-physics simulation capabilities within the Firedrake finite element framework, with a focus on integrating machine learning approaches with physics-based solvers for high-performance scientific computing applications."
+},
+{
     "organisation": "University of Leicester",
     "city": "Leicester",
     "country": "UK",
