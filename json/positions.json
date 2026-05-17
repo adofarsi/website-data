@@ -1,5 +1,14 @@
 [
 {
+    "organisation": "University of Leicester",
+    "city": "Leicester",
+    "country": "UK",
+    "title": "Research Associate - PDE-Constrained Shape Optimisation",
+    "start_date": "March 2026",
+    "end_date": "July 2026",
+    "description": "Funded by the University of Leicester Impact Development Fund, in collaboration with Prof. Alberto Paganini. Extended the open-source shape optimisation software Fireshape with industrially relevant shell and plate mechanics test cases within the Firedrake finite element framework."
+},
+{
     "organisation": "University College London",
     "city": "London",
     "country": "UK",
