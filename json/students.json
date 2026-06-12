@@ -1,5 +1,18 @@
 [
   {
+    "id": "32",
+    "start_date": "June 2026",
+    "end_date": "August 2026",
+    "title": "Implementing Finite Element Solvers in Firedrake",
+    "role": "Project writer, main supervisor",
+    "name": "Juncheng",
+    "surname": "Liu",
+    "degree": "Mathematics MSc",
+    "institution": "Imperial College London",
+    "gender": "-",
+    "current": "y"
+  },
+  {
     "id": "31",
     "start_date": "July 2026",
     "end_date": "August 2026",
