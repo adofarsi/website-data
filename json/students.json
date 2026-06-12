@@ -1,5 +1,31 @@
 [
   {
+    "id": "31",
+    "start_date": "July 2026",
+    "end_date": "August 2026",
+    "title": "Numerical Simulation of Tsunami Propagation in the Tokai Region, Nankai Trough",
+    "role": "Project writer, main supervisor",
+    "name": "HyeMin",
+    "surname": "Oh",
+    "degree": "Geophysics MSci",
+    "institution": "Imperial College London",
+    "gender": "m",
+    "current": "y"
+  },
+  {
+    "id": "30",
+    "start_date": "June 2026",
+    "end_date": "August 2026",
+    "title": "Numerical Modelling of Arctic Sea Ice Dynamics under Coupled Atmosphere-Ocean Forcing",
+    "role": "Project writer, main supervisor",
+    "name": "Zijin",
+    "surname": "Zhang",
+    "degree": "Geophysics MSci",
+    "institution": "Imperial College London",
+    "gender": "f",
+    "current": "y"
+  },
+  {
     "id": "29",
     "start_date": "May 2026",
     "end_date": "September 2026",
