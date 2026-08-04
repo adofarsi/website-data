@@ -2,28 +2,31 @@
 layout: default
 title: Publications
 permalink: /publications/
+centered: true
 description: >-
   Publications by Ado Farsi in computational mechanics, geomechanics, granular
   materials and machine learning, with PDF and DOI links.
 ---
-<article class="page measure">
+<article class="page measure{% if page.centered %} centered-head{% endif %}">
   <header>
     <h1>Publications</h1>
   </header>
-  <ul class="pub-list">
+  <ul class="ref-list">
     {% for pub in site.data.publications %}
-    <li class="pub">
-      <span class="pub-id">[{{ pub.id }}]</span>
-      {% for a in pub.authors %}{% if a == "Farsi A" %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
-      ({{ pub.year }})
-      <span class="pub-title">{{ pub.title }}.</span>
-      <em>{{ pub.publisher }}</em>.
-      {% if pub.pdf and pub.pdf != "" %}
-        {% assign pdfpath = pub.pdf | replace: "https://github.com/adofarsi/website-data/blob/main/", "/" | replace: "?raw=true", "" %}
-        {% if pdfpath contains "http" %}<a class="plink" href="{{ pdfpath }}">pdf</a>
-        {% else %}<a class="plink" href="{{ pdfpath | relative_url }}">pdf</a>{% endif %}
-      {% endif %}
-      {% if pub.doi and pub.doi != "" %}<a class="plink" href="{{ pub.doi }}">doi</a>{% endif %}
+    <li class="ref">
+      <span class="ref-id">[{{ pub.id }}]</span>
+      <span class="ref-body">
+        {% for a in pub.authors %}{% if a == "Farsi A" %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+        ({{ pub.year }})
+        <span class="ref-title">{{ pub.title }}.</span>
+        <em>{{ pub.publisher }}</em>.
+        {% if pub.pdf and pub.pdf != "" %}
+          {% assign pdfpath = pub.pdf | replace: "https://github.com/adofarsi/website-data/blob/main/", "/" | replace: "?raw=true", "" %}
+          {% if pdfpath contains "http" %}(<a href="{{ pdfpath }}">pdf</a>)
+          {% else %}(<a href="{{ pdfpath | relative_url }}">pdf</a>){% endif %}
+        {% endif %}
+        {% if pub.doi and pub.doi != "" %}(<a href="{{ pub.doi }}">doi</a>){% endif %}
+      </span>
     </li>
     {% endfor %}
   </ul>

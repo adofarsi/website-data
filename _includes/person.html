@@ -4,8 +4,8 @@
 {% assign photo = site.static_files | where: "path", photo_path | first %}
 {% if photo %}{% assign src = photo.path %}{% elsif include.person.gender == 'f' %}{% assign src = '/students/placeholder_female.jpg' %}{% else %}{% assign src = '/students/placeholder_man.jpg' %}{% endif %}
 <div class="person">
-  <img src="{{ src | relative_url }}" alt="{{ include.person.name }} {{ include.person.surname }}" loading="lazy">
   <div class="p-name">{% if include.prefix %}{{ include.prefix }} {% endif %}{{ include.person.name }} {{ include.person.surname }}</div>
+  <img src="{{ src | relative_url }}" alt="{{ include.person.name }} {{ include.person.surname }}" loading="lazy">
   {% if include.subtitle %}<div class="p-meta">{{ include.subtitle }}</div>{% endif %}
   <div class="p-meta">{{ include.person.institution }}</div>
 </div>
