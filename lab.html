@@ -66,10 +66,8 @@ description: >-
   <section class="block">
     <h2>Previous students</h2>
     {% assign previous = site.data.students | where_exp: "s", "s.current != 'y'" %}
-    <ul class="prev-grid">
-      {% for s in previous %}
-      <li>{{ s.name }} {{ s.surname }} <span class="p-meta">— {{ s.institution }}</span></li>
-      {% endfor %}
-    </ul>
+    <div class="people-grid people-grid--sm">
+      {% for s in previous %}{% include person.html person=s folder="students" %}{% endfor %}
+    </div>
   </section>
 </article>
