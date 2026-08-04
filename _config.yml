@@ -1,0 +1,37 @@
+title: Ado Farsi
+description: >-
+  Ado Farsi — Research Fellow (Co-Investigator) at University College London and
+  Visiting Researcher at Imperial College London. Computational mechanics, finite
+  and discrete element modelling, and machine learning for Earth and engineered
+  materials.
+author: Ado Farsi
+email: ado.farsi@imperial.ac.uk
+
+# Interim deployment at https://adofarsi.github.io/website-data
+# At the www.adofarsi.com DNS cutover: set url to https://www.adofarsi.com,
+# set baseurl to "", and add a CNAME file containing www.adofarsi.com
+url: "https://adofarsi.github.io"
+baseurl: "/website-data"
+
+# json/ is the single source of truth, shared by this site, the CV pipeline
+# (cv/) and — until the migration completes — the WordPress shortcodes (php/)
+data_dir: json
+
+profiles:
+  github: https://github.com/adofarsi
+  scholar: "https://scholar.google.co.uk/citations?user=ql46R8sAAAAJ&hl=en"
+  linkedin: https://www.linkedin.com/in/adofarsi/
+  imperial: https://www.imperial.ac.uk/people/ado.farsi
+  ucl: https://profiles.ucl.ac.uk/93231-ado-farsi
+  tanuki: https://tanuki.ai
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - cv
+  - php
+  - Gemfile
+  - Gemfile.lock
+  - vendor

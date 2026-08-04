@@ -1,0 +1,103 @@
+---
+layout: default
+title: Background
+permalink: /background/
+description: >-
+  Background of Ado Farsi — education, research positions at Imperial College London
+  and UCL, awards, research funding, academic service and memberships.
+---
+<article class="page measure">
+  <header>
+    <h1>Background</h1>
+    <p class="intro">I was born in Monza, near Milan, Italy. Before moving to the UK I studied
+      at the Polytechnic University of Milan, where I earned a Bachelor's degree in Building
+      Engineering and a Master's degree in Structural Engineering, before completing my PhD
+      in Computational Mechanics at Imperial College London.</p>
+  </header>
+
+  <section class="block">
+    <h2>Education</h2>
+    <ul class="tl">
+      {% for e in site.data.education %}
+      <li>
+        <div class="tl-dates">{{ e.start_year }}–{{ e.end_year }}</div>
+        <div class="tl-title">{{ e.degree }}</div>
+        <div class="tl-org">{{ e.institution }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>Positions</h2>
+    <ul class="tl">
+      {% for p in site.data.positions %}
+      <li>
+        <div class="tl-dates">{{ p.start_date }} – {{ p.end_date }}</div>
+        <div class="tl-title">{{ p.title }}</div>
+        <div class="tl-org">{{ p.organisation }}, {{ p.city }}, {{ p.country }}</div>
+        {% if p.description and p.description != "" %}<p class="tl-desc">{{ p.description }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>Awards</h2>
+    <ul class="tl">
+      {% for a in site.data.awards %}
+      <li>
+        <div class="tl-dates">{{ a.date }}</div>
+        <div class="tl-title">{{ a.name }}</div>
+        <div class="tl-org">{{ a.organisation }}</div>
+        {% if a.description and a.description != "" %}<p class="tl-desc">{{ a.description }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>Research funding</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Year</th><th>Project</th><th>Funder</th><th>Role</th><th>Value</th></tr>
+        </thead>
+        <tbody>
+          {% for f in site.data.funding %}
+          <tr>
+            <td class="num">{{ f.year }}</td>
+            <td>{{ f.project | default: "—" }}</td>
+            <td>{{ f.funder }}</td>
+            <td>{{ f.role }}</td>
+            <td class="num">{{ f.value_display }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Academic service</h2>
+    <ul class="tl">
+      {% for a in site.data.activities %}
+      <li>
+        <div class="tl-dates">{{ a.start_date }} – {{ a.end_date }}</div>
+        <div class="tl-title">{{ a.role }}</div>
+        {% if a.organisation != "" %}<div class="tl-org">{{ a.organisation }}</div>{% endif %}
+        {% if a.description and a.description != "" %}<p class="tl-desc">{{ a.description }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>Memberships</h2>
+    <ul>
+      {% for m in site.data.memberships %}
+      <li>{{ m.organisation }} <span class="section-note">— {{ m.role | downcase }} since {{ m.start_date }}</span></li>
+      {% endfor %}
+    </ul>
+  </section>
+</article>

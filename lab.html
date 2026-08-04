@@ -1,0 +1,75 @@
+---
+layout: default
+title: Farsi Lab
+permalink: /lab/
+description: >-
+  The Farsi Computational Mechanics Lab builds high-performance numerical models for
+  Earth sciences and engineering — fracture, contact, porous media flow, coupled
+  multiphysics, HPC and inverse modelling.
+---
+<article class="page wide">
+  <header>
+    <h1>Farsi Computational Mechanics Lab</h1>
+    <div class="intro">
+      <p>I lead the Farsi Lab, where we build high&#8209;performance numerical models to tackle
+        complex problems in Earth sciences and engineering. Our research advances nonlinear
+        solid mechanics, discrete fracture mechanics, contact processes, fluid flow in porous
+        media, and tightly coupled multiphysics systems. We develop and deploy finite&#8209; and
+        discrete&#8209;element methods, and adjoint&#8209;based data assimilation and optimisation, also
+        using a newly developed finite element&#8209;based operator&#8209;learning framework.</p>
+      <p>Focus areas are:</p>
+      <ul>
+        <li>Fracture, faulting, and contact in heterogeneous solids;</li>
+        <li>Multiphase flow and transport in porous media;</li>
+        <li>Strongly coupled multiphysics processes;</li>
+        <li>Scalable algorithms and software for large&#8209;scale HPC simulation;</li>
+        <li>Inverse modelling and data assimilation via adjoint methods and operator learning.</li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="block">
+    <h2>Members</h2>
+    {% assign members = site.data.students | where: "current", "y" %}
+    <div class="people-grid">
+      {% for s in members %}{% include person.html person=s folder="students" subtitle=s.degree %}{% endfor %}
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Collaborators</h2>
+    <div class="people-grid">
+      {% for c in site.data.collaborators %}{% include person.html person=c folder="collaborators" prefix=c.title %}{% endfor %}
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Previous students</h2>
+    {% assign previous = site.data.students | where_exp: "s", "s.current != 'y'" %}
+    <ul class="prev-grid">
+      {% for s in previous %}
+      <li>{{ s.name }} {{ s.surname }} <span class="p-meta">— {{ s.institution }}</span></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>Bridging computational mechanics and machine learning</h2>
+    <div class="intro">
+      <p>To learn more about our work in rock mechanics, watch my invited seminar for the
+        <a href="https://armarocks.org/">American Rock Mechanics Association</a>,
+        <em>Bridging Computational Mechanics and Machine Learning in Geomechanics</em>:</p>
+    </div>
+    <div class="video">
+      <iframe src="https://www.youtube-nocookie.com/embed/diiafyUDy6Y" title="Bridging Computational Mechanics and Machine Learning in Geomechanics — ARMA invited seminar" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="intro">
+      <p>I am always interested in meaningful collaborations across academia and industry —
+        if you have an idea or project in mind, <a href="{{ '/contact/' | relative_url }}">let's talk</a>.
+        Exceptional students are also invited to reach out about MSc and PhD projects.</p>
+    </div>
+  </section>
+</article>
