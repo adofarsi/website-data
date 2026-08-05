@@ -284,13 +284,15 @@ section.block { margin-top: 3.2rem; }
 }
 .tl-dates { font-size: 0.85rem; color: var(--muted); }
 .tl-title { color: var(--heading); font-family: var(--font-head); font-weight: 600; font-size: 1rem; }
+.tl-subject { font-style: italic; font-size: 0.97rem; color: var(--text); line-height: 1.45; }
 .tl-org { font-size: 0.95rem; }
+.tl-meta { font-size: 0.9rem; color: var(--muted); margin-top: 0.1rem; }
 .tl-desc { font-size: 0.93rem; margin: 0.35rem 0 0; color: var(--text); }
 
 /* ---------- about (bio + portrait) ---------- */
 .about-grid {
   display: grid;
-  grid-template-columns: 1.45fr 1fr;
+  grid-template-columns: 1fr 1.45fr;
   gap: 2.6rem;
   align-items: start;
 }
@@ -303,27 +305,6 @@ section.block { margin-top: 3.2rem; }
   box-shadow: var(--card-shadow);
   display: block;
 }
-
-/* ---------- tables ---------- */
-.table-wrap { overflow-x: auto; }
-body.band-gray .table-wrap {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: var(--card-shadow);
-  padding: 0.5rem 1.1rem;
-}
-table { border-collapse: collapse; width: 100%; font-size: 0.93rem; }
-th {
-  text-align: left;
-  color: var(--muted);
-  font-weight: 700;
-  border-bottom: 1px solid var(--line);
-  padding: 0.5rem 0.9rem 0.5rem 0;
-  white-space: nowrap;
-}
-td { border-bottom: 1px solid var(--line); padding: 0.55rem 0.9rem 0.55rem 0; vertical-align: top; }
-tbody tr:last-child td { border-bottom: 0; }
-td.num { white-space: nowrap; font-variant-numeric: tabular-nums; }
 
 /* ---------- media ---------- */
 .video {

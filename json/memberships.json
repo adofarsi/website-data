@@ -1,37 +1,37 @@
 [
-{
-    "organisation": "UK Association for Computational Mechanics (UKACM)",
-    "role": "Member",
-    "start_date": "January 2025",
-    "end_date": "present",
-    "description": ""
-},
-{
-    "organisation": "US Association for Computational Mechanics (USACM)",
-    "role": "Member",
-    "start_date": "August 2022",
-    "end_date": "present",
-    "description": ""
-},
-{
-    "organisation": "European Community on Computational Methods in Applied Sciences (ECCOMAS)",
-    "role": "Member",
-    "start_date": "August 2021",
-    "end_date": "present",
-    "description": ""
-},
-{
-    "organisation": "American Geophysical Union (AGU)",
-    "role": "Member",
-    "start_date": "December 2023",
-    "end_date": "present",
-    "description": ""
-},
-{
-    "organisation": "European Geophysical Union (EGU)",
-    "role": "Member",
-    "start_date": "April 2024",
-    "end_date": "present",
-    "description": ""
-}
+ {
+  "organisation": "UK Association for Computational Mechanics (UKACM)",
+  "role": "Member",
+  "start_date": "January 2025",
+  "end_date": "present",
+  "description": ""
+ },
+ {
+  "organisation": "European Geophysical Union (EGU)",
+  "role": "Member",
+  "start_date": "April 2024",
+  "end_date": "present",
+  "description": ""
+ },
+ {
+  "organisation": "American Geophysical Union (AGU)",
+  "role": "Member",
+  "start_date": "December 2023",
+  "end_date": "present",
+  "description": ""
+ },
+ {
+  "organisation": "US Association for Computational Mechanics (USACM)",
+  "role": "Member",
+  "start_date": "August 2022",
+  "end_date": "present",
+  "description": ""
+ },
+ {
+  "organisation": "European Community on Computational Methods in Applied Sciences (ECCOMAS)",
+  "role": "Member",
+  "start_date": "August 2021",
+  "end_date": "present",
+  "description": ""
+ }
 ]

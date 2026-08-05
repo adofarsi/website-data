@@ -13,12 +13,6 @@ description: >-
   </header>
 
   <div class="about-grid">
-    <div>
-      <p>I was born in Monza, near Milan (Italy), and before moving to the UK I studied at
-        the Polytechnic University of Milan, where I earned a Bachelor's degree in Building
-        Engineering and a Master's degree in Structural Engineering, before completing my
-        PhD in Computational Mechanics at Imperial College London.</p>
-    </div>
     {% assign portrait = site.static_files | where: "path", "/images/ado_farsi.jpg" | first %}
     {% unless portrait %}{% assign portrait = site.static_files | where: "path", "/images/ado_farsi.png" | first %}{% endunless %}
     {% if portrait %}
@@ -26,6 +20,12 @@ description: >-
       <img src="{{ portrait.path | relative_url }}" alt="Ado Farsi" loading="lazy">
     </figure>
     {% endif %}
+    <div>
+      <p>I was born in Monza, near Milan (Italy), and before moving to the UK I studied at
+        the Polytechnic University of Milan, where I earned a Bachelor's degree in Building
+        Engineering and a Master's degree in Structural Engineering, before completing my
+        PhD in Computational Mechanics at Imperial College London.</p>
+    </div>
   </div>
 
   <section class="block">
@@ -43,11 +43,14 @@ description: >-
 
   <section class="block">
     <h2>Positions</h2>
+    {% assign now_ts = site.time | date: "%s" | plus: 0 %}
     <ul class="tl">
       {% for p in site.data.positions %}
+      {% assign start_ts = p.start_date | date: "%s" | plus: 0 %}
       <li>
-        <div class="tl-dates">{{ p.start_date }} – {{ p.end_date }}</div>
+        <div class="tl-dates">{{ p.start_date }}{% unless start_ts > now_ts %} – {{ p.end_date }}{% endunless %}</div>
         <div class="tl-title">{{ p.title }}</div>
+        {% if p.subject %}<div class="tl-subject">{{ p.subject }}</div>{% endif %}
         <div class="tl-org">{{ p.organisation }}, {{ p.city }}, {{ p.country }}</div>
         {% if p.description and p.description != "" %}<p class="tl-desc">{{ p.description }}</p>{% endif %}
       </li>
@@ -71,24 +74,16 @@ description: >-
 
   <section class="block">
     <h2>Research funding</h2>
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr><th>Year</th><th>Project</th><th>Funder</th><th>Role</th><th>Value</th></tr>
-        </thead>
-        <tbody>
-          {% for f in site.data.funding %}
-          <tr>
-            <td class="num">{{ f.year }}</td>
-            <td>{{ f.project | default: "—" }}</td>
-            <td>{{ f.funder }}</td>
-            <td>{{ f.role }}</td>
-            <td class="num">{{ f.value_display }}</td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
+    <ul class="tl">
+      {% for f in site.data.funding %}
+      <li>
+        <div class="tl-dates">{{ f.year }}</div>
+        <div class="tl-title">{{ f.project | default: f.funder }}</div>
+        {% if f.project %}<div class="tl-org">{{ f.funder }}</div>{% endif %}
+        <div class="tl-meta">{{ f.role }} · {{ f.value_display }}</div>
+      </li>
+      {% endfor %}
+    </ul>
   </section>
 
   <section class="block">
@@ -107,9 +102,12 @@ description: >-
 
   <section class="block">
     <h2>Memberships</h2>
-    <ul>
+    <ul class="tl">
       {% for m in site.data.memberships %}
-      <li>{{ m.organisation }} <span class="section-note">— {{ m.role | downcase }} since {{ m.start_date }}</span></li>
+      <li>
+        <div class="tl-dates">{{ m.start_date }} – {{ m.end_date }}</div>
+        <div class="tl-title">{{ m.organisation }}</div>
+      </li>
       {% endfor %}
     </ul>
   </section>
