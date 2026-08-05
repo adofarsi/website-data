@@ -20,6 +20,7 @@ description: >-
         PhD in Computational Mechanics at Imperial College London.</p>
     </div>
     {% assign portrait = site.static_files | where: "path", "/images/ado_farsi.jpg" | first %}
+    {% unless portrait %}{% assign portrait = site.static_files | where: "path", "/images/ado_farsi.png" | first %}{% endunless %}
     {% if portrait %}
     <figure class="portrait">
       <img src="{{ portrait.path | relative_url }}" alt="Ado Farsi" loading="lazy">
