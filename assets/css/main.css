@@ -151,15 +151,6 @@ footer {
   text-align: center;
 }
 body.band-gray footer { margin-top: 4rem; }
-footer .profiles {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.4rem 1.4rem;
-  margin-bottom: 1rem;
-}
-footer .profiles a { color: var(--muted); }
-footer .profiles a:hover { color: var(--blue); }
 footer .copyright { color: var(--muted); }
 
 /* ---------- bands ---------- */
