@@ -25,7 +25,7 @@
     <nav class="wide">
       <a class="wordmark" href="{{ '/' | relative_url }}">Dr&nbsp;Ado&nbsp;Farsi</a>
       <div class="links">
-        {% assign nav = "Farsi Lab:/lab/|Publications:/publications/|Talks:/talks/|Teaching:/teaching/|About me:/background/|Contacts:/contact/|News:/#news" | split: "|" %}
+        {% assign nav = "Farsi Lab:/lab/|Publications:/publications/|Talks:/talks/|Teaching:/teaching/|About me:/background/|Contacts:/contact/" | split: "|" %}
         {% for item in nav %}{% assign parts = item | split: ":" %}<a href="{{ parts[1] | relative_url }}"{% if page.url == parts[1] %} aria-current="page"{% endif %}>{{ parts[0] }}</a>{% endfor %}
       </div>
     </nav>
