@@ -49,7 +49,7 @@ description: >-
   </section>
 
   <section class="block">
-    <h2>Members</h2>
+    <h2>Students</h2>
     {% assign members = site.data.students | where: "current", "y" %}
     <div class="people-grid">
       {% for s in members %}{% include person.html person=s folder="students" subtitle=s.degree %}{% endfor %}
