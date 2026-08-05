@@ -11,8 +11,6 @@ description: >-
 <article class="page measure{% if page.centered %} centered-head{% endif %}">
   <header>
     <h1>Talks</h1>
-    <p class="page-intro">Talks, invited seminars and sessions at international
-      conferences, including WCCM, ECCOMAS, USNCCM, ARMA, AGU and EGU.</p>
   </header>
   {% assign groups = site.data.dissemination | group_by_exp: "t", "t.date | split: ' ' | last" %}
   {% for g in groups %}
