@@ -30,8 +30,10 @@ plugins:
 
 exclude:
   - README.md
-  - cv
-  - php
+  # trailing slashes matter: Jekyll's exclude is prefix-matched, so a bare "cv"
+  # would also exclude cv.html
+  - cv/
+  - php/
   - Gemfile
   - Gemfile.lock
   - vendor

@@ -1,15 +1,15 @@
 ---
 layout: default
-title: About me
-permalink: /background/
+title: CV
+permalink: /cv/
 band: gray
 description: >-
-  About Ado Farsi — education, research positions at Imperial College London and UCL,
+  CV of Ado Farsi — education, research positions at Imperial College London and UCL,
   awards, research funding, academic service and memberships.
 ---
 <article class="page measure">
   <header>
-    <h1>About me</h1>
+    <h1>CV</h1>
   </header>
 
   <div class="about-grid">
@@ -35,7 +35,8 @@ description: >-
       <li>
         <div class="tl-dates">{{ e.start_year }}–{{ e.end_year }}</div>
         <div class="tl-title">{{ e.degree }}</div>
-        <div class="tl-org">{{ e.institution }}</div>
+        {% if e.subject %}<div class="tl-subject">{{ e.subject }}</div>{% endif %}
+        <div class="tl-org">{{ e.institution }}, {{ e.city }}, {{ e.country }}</div>
       </li>
       {% endfor %}
     </ul>

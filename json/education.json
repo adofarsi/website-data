@@ -1,19 +1,28 @@
 [
  {
   "institution": "Imperial College London",
-  "degree": "Doctor of Philosophy (PhD), Computational Mechanics",
+  "city": "London",
+  "country": "UK",
+  "degree": "Doctor of Philosophy (PhD)",
+  "subject": "Computational Mechanics",
   "start_year": 2013,
   "end_year": 2017
  },
  {
   "institution": "Politecnico di Milano",
-  "degree": "Master of Science (MSc), Civil Engineering",
+  "city": "Milan",
+  "country": "Italy",
+  "degree": "Master of Science (MSc)",
+  "subject": "Civil Engineering",
   "start_year": 2010,
   "end_year": 2013
  },
  {
   "institution": "Politecnico di Milano",
-  "degree": "Bachelor of Science (BSc), Building Engineering",
+  "city": "Milan",
+  "country": "Italy",
+  "degree": "Bachelor of Science (BSc)",
+  "subject": "Building Engineering",
   "start_year": 2007,
   "end_year": 2010
  }
