@@ -12,8 +12,7 @@ email: ado.farsi@imperial.ac.uk
 url: "https://www.adofarsi.com"
 baseurl: ""
 
-# json/ is the single source of truth, shared by this site, the CV pipeline
-# (cv/) and — until the migration completes — the WordPress shortcodes (php/)
+# json/ is the single source of truth, shared by this site and the CV pipeline (cv/)
 data_dir: json
 
 profiles:
@@ -29,10 +28,9 @@ plugins:
 
 exclude:
   - README.md
-  # trailing slashes matter: Jekyll's exclude is prefix-matched, so a bare "cv"
+  # trailing slash matters: Jekyll's exclude is prefix-matched, so a bare "cv"
   # would also exclude cv.html
   - cv/
-  - php/
   - Gemfile
   - Gemfile.lock
   - vendor

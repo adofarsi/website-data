@@ -13,7 +13,6 @@ Pages) rendered entirely from the JSON data files in this repository.
 | `images/` | Other site images (teaching photos) |
 | `_layouts/`, `_includes/`, `assets/`, `*.html` | Jekyll templates and pages |
 | `cv/` | CV generation notebooks consuming the same JSON (not part of the site build) |
-| `php/` | Legacy WordPress shortcodes from the old site (obsolete after migration) |
 
 ## Updating the site
 
