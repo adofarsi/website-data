@@ -1,56 +1,57 @@
 [
-    {
-        "id": "1",
-        "title": "Prof",
-        "name": "Robert",
-        "surname": "Zimmerman",
-        "institution": "Imperial College London",
-        "gender": "m",
-        "current": "y"
-    },
-    {
-        "id": "2",
-        "title": "Prof",
-        "name": "David",
-        "surname": "Ham",
-        "institution": "Imperial College London",
-        "gender": "m",
-        "current": "y"
-    },
-    {
-        "id": "3",
-        "title": "Prof",
-        "name": "Nicolas",
-        "surname": "Brantut",
-        "institution": "GFZ Helmholtz Centre for Geosciences",
-        "gender": "m",
-        "current": "y"
-    },
-    {
-        "id": "4",
-        "title": "Prof",
-        "name": "Michel",
-        "surname": "Tsamados",
-        "institution": "University College London",
-        "gender": "m",
-        "current": "y"
-    },
-    {
-        "id": "5",
-        "title": "Dr",
-        "name": "Nacime",
-        "surname": "Bouziani",
-        "institution": "Amazon AGI",
-        "gender": "m",
-        "current": "y"
-    },
-    {
-        "id": "6",
-        "title": "Prof",
-        "name": "Alberto",
-        "surname": "Paganini",
-        "institution": "University of Leicester",
-        "gender": "m",
-        "current": "y"
-    }
+ {
+  "id": "1",
+  "title": "Prof",
+  "name": "Robert",
+  "surname": "Zimmerman",
+  "suffix": "FREng.",
+  "institution": "Imperial College London",
+  "gender": "m",
+  "current": "y"
+ },
+ {
+  "id": "2",
+  "title": "Prof",
+  "name": "David",
+  "surname": "Ham",
+  "institution": "Imperial College London",
+  "gender": "m",
+  "current": "y"
+ },
+ {
+  "id": "3",
+  "title": "Prof",
+  "name": "Nicolas",
+  "surname": "Brantut",
+  "institution": "GFZ Helmholtz Centre for Geosciences",
+  "gender": "m",
+  "current": "y"
+ },
+ {
+  "id": "4",
+  "title": "Prof",
+  "name": "Michel",
+  "surname": "Tsamados",
+  "institution": "University College London",
+  "gender": "m",
+  "current": "y"
+ },
+ {
+  "id": "5",
+  "title": "Dr",
+  "name": "Nacime",
+  "surname": "Bouziani",
+  "institution": "Amazon AGI",
+  "gender": "m",
+  "current": "y"
+ },
+ {
+  "id": "6",
+  "title": "Prof",
+  "name": "Alberto",
+  "surname": "Paganini",
+  "institution": "University of Leicester",
+  "gender": "m",
+  "current": "y"
+ }
 ]
