@@ -7,11 +7,10 @@ description: >-
 author: Ado Farsi
 email: ado.farsi@imperial.ac.uk
 
-# Interim deployment at https://adofarsi.github.io/website-data
-# At the www.adofarsi.com DNS cutover: set url to https://www.adofarsi.com,
-# set baseurl to "", and add a CNAME file containing www.adofarsi.com
-url: "https://adofarsi.github.io"
-baseurl: "/website-data"
+# Live at https://www.adofarsi.com (custom domain via the CNAME file;
+# GitHub redirects adofarsi.github.io/website-data here)
+url: "https://www.adofarsi.com"
+baseurl: ""
 
 # json/ is the single source of truth, shared by this site, the CV pipeline
 # (cv/) and — until the migration completes — the WordPress shortcodes (php/)

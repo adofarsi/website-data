@@ -26,19 +26,15 @@ With Docker running:
 
 ```bash
 docker run --rm -p 4000:4000 -v "$PWD":/srv -w /srv ruby:3.3 \
-  bash -lc "gem install --no-document jekyll webrick jekyll-sitemap && \
-            jekyll serve --host 0.0.0.0 --baseurl /website-data --force_polling"
+  bash -c "gem install --no-document jekyll webrick jekyll-sitemap && \
+           jekyll serve --host 0.0.0.0 --force_polling"
 ```
 
-Then open <http://localhost:4000/website-data/>.
+Then open <http://localhost:4000/>.
 
-## Domain cutover (one-time)
+## Domain
 
-The site currently deploys to <https://adofarsi.github.io/website-data>. To serve it at
-www.adofarsi.com:
-
-1. In `_config.yml`: set `url: "https://www.adofarsi.com"` and `baseurl: ""`.
-2. Add a `CNAME` file containing `www.adofarsi.com`.
-3. In DNS (Hostinger): `CNAME www → adofarsi.github.io`, apex `A` records →
-   `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
-4. In the repo's Pages settings, set the custom domain and enable *Enforce HTTPS*.
+The site is served at <https://www.adofarsi.com> via GitHub Pages: the `CNAME` file
+binds the custom domain, `www` is a DNS CNAME to `adofarsi.github.io`, and the apex
+`A` records point to GitHub Pages (`185.199.108.153`, `.109.`, `.110.`, `.111.`), so
+the apex redirects to www. HTTPS is enforced in the repo's Pages settings.
