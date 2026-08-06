@@ -6,7 +6,8 @@
   "degree": "Doctor of Philosophy (PhD)",
   "subject": "Computational Mechanics",
   "start_year": 2013,
-  "end_year": 2017
+  "end_year": 2017,
+  "thesis": "Numerical and Experimental Investigations of Particle Stress and Fracture for Complex-Shaped Pellets"
  },
  {
   "institution": "Politecnico di Milano",
@@ -15,7 +16,8 @@
   "degree": "Master of Science (MSc)",
   "subject": "Civil Engineering",
   "start_year": 2010,
-  "end_year": 2013
+  "end_year": 2013,
+  "thesis": "Inverse Analysis Procedures and Possible Applications in Drilling Operations"
  },
  {
   "institution": "Politecnico di Milano",
@@ -24,6 +26,7 @@
   "degree": "Bachelor of Science (BSc)",
   "subject": "Building Engineering",
   "start_year": 2007,
-  "end_year": 2010
+  "end_year": 2010,
+  "thesis": "Comparative Analysis of Three Models of Beams on Elastic Foundations"
  }
 ]
