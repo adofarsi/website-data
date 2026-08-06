@@ -6,15 +6,15 @@
   "description": "The first parallel, high-performance, pure-Python combined finite-discrete element (FDEM) code; showcased at ECCOMAS and USNCCM and used in the £10M ARIA Re-thickening Arctic Sea Ice project to simulate sea ice dynamics."
  },
  {
-  "name": "Firedrake",
-  "role": "Contributor",
-  "url": "https://firedrakeproject.org",
-  "description": "Differentiable programming across the PDE/machine-learning barrier: hybrid ML/physics simulation capabilities and the FEML operator-learning framework for missing-physics discovery, built on Firedrake's finite element abstractions."
+  "name": "FEML",
+  "role": "Co-creator",
+  "url": "https://arxiv.org/abs/2507.15787",
+  "description": "End-to-end differentiable framework coupling known PDE physics with machine-learned operators for missing-physics discovery, built on the Firedrake finite element system."
  },
  {
   "name": "Fireshape",
-  "role": "Contributor",
+  "role": "Collaborator",
   "url": "https://github.com/fireshape/fireshape",
-  "description": "Extended the open-source PDE-constrained shape optimisation toolbox with industrially relevant shell and plate mechanics test cases."
+  "description": "Developed industrially relevant shell and plate mechanics test cases for the open-source PDE-constrained shape optimisation toolbox, in collaboration with its lead developer."
  }
 ]
