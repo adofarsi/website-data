@@ -5,18 +5,38 @@ seo_title: News | Dr Ado Farsi
 permalink: /news/
 band: gray
 description: >-
-  News and updates from Ado Farsi on research, publications and talks in
-  computational mechanics and machine learning.
+  News and updates from Dr Ado Farsi, including media coverage of his research on
+  Arctic sea ice, computational mechanics and machine learning.
 ---
 <article class="page measure">
   <header>
     <h1>News</h1>
-    <p class="intro">If you want to stay up to date with my research, publications, talks
-      and all the other stuff I am doing,
-      <a href="{{ site.profiles.linkedin }}"><strong>add me on LinkedIn</strong></a>
-      or just check down here:</p>
   </header>
 
-  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-  <div class="elfsight-app-e0a10d4a-ea28-4614-b31c-e5993c1fed7b" data-elfsight-app-lazy></div>
+  {% assign news_items = site.data.news | sort: "date" | reverse %}
+  {% if news_items.size > 0 %}
+  <ul class="tl">
+    {% for n in news_items %}
+    <li>
+      <div class="tl-dates">{{ n.date | date: "%-d %B %Y" }}</div>
+      <div class="tl-title">{{ n.title }}</div>
+      {% if n.article_title %}
+      <div class="tl-subject">{% if n.link %}<a href="{{ n.link }}">{{ n.article_title }}</a>{% else %}{{ n.article_title }}{% endif %}</div>
+      {% endif %}
+      {% if n.outlet %}<div class="tl-org">{{ n.outlet }}{% if n.author %} — {{ n.author }}{% endif %}</div>{% endif %}
+      {% if n.description %}<p class="tl-desc">{{ n.description }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  <section class="block">
+    <h2>From LinkedIn</h2>
+    <p>If you want to stay up to date with my research, publications, talks and all the
+      other stuff I am doing,
+      <a href="{{ site.profiles.linkedin }}"><strong>add me on LinkedIn</strong></a>
+      or just check down here:</p>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-e0a10d4a-ea28-4614-b31c-e5993c1fed7b" data-elfsight-app-lazy></div>
+  </section>
 </article>
