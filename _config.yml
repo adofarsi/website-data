@@ -18,7 +18,7 @@ data_dir: json
 profiles:
   orcid: https://orcid.org/0000-0002-2902-8571
   github: https://github.com/adofarsi
-  scholar: "https://scholar.google.co.uk/citations?user=ql46R8sAAAAJ&hl=en"
+  scholar: "https://scholar.google.com/citations?user=ql46R8sAAAAJ&hl=en"
   linkedin: https://www.linkedin.com/in/adofarsi/
   imperial: https://www.imperial.ac.uk/people/ado.farsi
   ucl: https://profiles.ucl.ac.uk/93231-ado-farsi
