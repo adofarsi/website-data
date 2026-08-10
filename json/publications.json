@@ -1,5 +1,18 @@
 [
  {
+  "id": 22,
+  "authors": [
+   "Farsi A",
+   "Paganini A"
+  ],
+  "title": "Shape Optimisation of Nonlinear Naghdi Shells on Discrete Geometries",
+  "publisher": "Computers & Structures (submitted)",
+  "year": 2026,
+  "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/shape_optimisation_of_nonlinear_naghdi_shells_on_discrete_geometries.pdf?raw=true",
+  "doi": "",
+  "type": "preprint"
+ },
+ {
   "id": 21,
   "authors": [
    "Farsi A",
