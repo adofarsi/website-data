@@ -16,6 +16,7 @@ baseurl: ""
 data_dir: json
 
 profiles:
+  wikidata: https://www.wikidata.org/wiki/Q140984451
   orcid: https://orcid.org/0000-0002-2902-8571
   github: https://github.com/adofarsi
   scholar: "https://scholar.google.com/citations?user=ql46R8sAAAAJ&hl=en"
