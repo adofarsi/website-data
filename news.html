@@ -19,6 +19,8 @@ description: >-
   <ul class="tl news-list">
     {% for n in news_items %}
     <li class="news-item{% if forloop.index > page_size %} is-hidden{% endif %}">
+      <div class="tl-dates">{{ n.date | date: "%-d %B %Y" }}</div>
+      <div class="tl-title">{{ n.title }}</div>
       {% assign img = site.static_files | where: "path", n.image | first %}
       {% if img %}
       <figure class="news-figure">
@@ -28,8 +30,6 @@ description: >-
         {% if n.image_credit %}<figcaption>{{ n.image_credit }}</figcaption>{% endif %}
       </figure>
       {% endif %}
-      <div class="tl-dates">{{ n.date | date: "%-d %B %Y" }}</div>
-      <div class="tl-title">{{ n.title }}</div>
       {% if n.article_title %}
       <div class="tl-subject">{% if n.link %}<a href="{{ n.link }}">{{ n.article_title }}</a>{% else %}{{ n.article_title }}{% endif %}</div>
       {% endif %}
