@@ -14,10 +14,20 @@ description: >-
   </header>
 
   {% assign news_items = site.data.news | sort: "date" | reverse %}
+  {% assign page_size = 5 %}
   {% if news_items.size > 0 %}
-  <ul class="tl">
+  <ul class="tl news-list">
     {% for n in news_items %}
-    <li>
+    <li class="news-item{% if forloop.index > page_size %} is-hidden{% endif %}">
+      {% assign img = site.static_files | where: "path", n.image | first %}
+      {% if img %}
+      <figure class="news-figure">
+        {% if n.link %}<a href="{{ n.link }}">{% endif %}
+        <img src="{{ img.path | relative_url }}" alt="{{ n.image_alt | default: n.title }}" loading="lazy">
+        {% if n.link %}</a>{% endif %}
+        {% if n.image_credit %}<figcaption>{{ n.image_credit }}</figcaption>{% endif %}
+      </figure>
+      {% endif %}
       <div class="tl-dates">{{ n.date | date: "%-d %B %Y" }}</div>
       <div class="tl-title">{{ n.title }}</div>
       {% if n.article_title %}
@@ -28,6 +38,28 @@ description: >-
     </li>
     {% endfor %}
   </ul>
+
+  {% if news_items.size > page_size %}
+  <button type="button" class="news-more" data-step="{{ page_size }}">More</button>
+  <noscript>
+    <style>
+      .news-item.is-hidden { display: list-item; }
+      .news-more { display: none; }
+    </style>
+  </noscript>
+  <script>
+    document.addEventListener('click', function (e) {
+      var btn = e.target.closest('.news-more');
+      if (!btn) return;
+      var step = parseInt(btn.dataset.step, 10) || 5;
+      var hidden = document.querySelectorAll('.news-item.is-hidden');
+      for (var i = 0; i < step && i < hidden.length; i++) {
+        hidden[i].classList.remove('is-hidden');
+      }
+      if (!document.querySelector('.news-item.is-hidden')) btn.hidden = true;
+    });
+  </script>
+  {% endif %}
   {% endif %}
 
   <section class="block">

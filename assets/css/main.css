@@ -281,6 +281,33 @@ section.block { margin-top: 3.2rem; }
 .tl-meta { font-size: 0.9rem; color: var(--muted); margin-top: 0.1rem; }
 .tl-desc { font-size: 0.93rem; margin: 0.35rem 0 0; color: var(--text); }
 
+/* ---------- news ---------- */
+.news-list .news-item.is-hidden { display: none; }
+.news-figure { margin: 0 0 0.9rem; }
+.news-figure img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  display: block;
+}
+.news-figure figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 0.5rem; }
+.news-more {
+  display: block;
+  margin: 0.2rem auto 0;
+  font-family: var(--font-head);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--blue);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.news-more:hover { border-color: var(--blue); }
+.news-more[hidden] { display: none; }
+
 /* ---------- about (bio + portrait) ---------- */
 .about-grid {
   display: grid;
