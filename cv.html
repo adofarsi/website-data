@@ -102,6 +102,23 @@ description: >-
     </ul>
   </section>
 
+  {% assign media = site.data.news | where: "type", "media" | sort: "date" | reverse %}
+  {% if media.size > 0 %}
+  <section class="block">
+    <h2>Media Coverage</h2>
+    <ul class="tl">
+      {% for m in media %}
+      <li>
+        <div class="tl-dates">{{ m.date | date: "%B %Y" }}</div>
+        <div class="tl-title">{{ m.outlet }}</div>
+        <div class="tl-subject">{% if m.link %}<a href="{{ m.link }}">{{ m.article_title }}</a>{% else %}{{ m.article_title }}{% endif %}</div>
+        {% if m.author %}<div class="tl-org">by {{ m.author }}</div>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
   <section class="block">
     <h2>Memberships</h2>
     <ul class="tl">
