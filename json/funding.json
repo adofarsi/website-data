@@ -9,27 +9,27 @@
     },
     {
         "year": 2026,
+        "funder": "Imperial College London Undergraduate Research Opportunities Programme (UROP)",
+        "project": "Numerical Modelling of Arctic Sea Ice Dynamics under Coupled Atmosphere-Ocean Forcing",
+        "value_gbp": 3392,
+        "value_display": "£3k",
+        "role": "Project proposer and supervisor"
+    },
+    {
+        "year": 2026,
+        "funder": "Imperial College London Undergraduate Research Opportunities Programme (UROP)",
+        "project": "Numerical Simulation of Tsunami Propagation in the Tokai Region, Nankai Trough",
+        "value_gbp": 3392,
+        "value_display": "£3k",
+        "role": "Project proposer and supervisor"
+    },
+    {
+        "year": 2026,
         "funder": "University of Leicester Impact Development Fund",
         "project": "Numerical Optimal Design Subject to Physical Constraints",
         "value_gbp": 6000,
         "value_display": "£6k",
         "role": "Named Postdoc"
-    },
-    {
-        "year": 2026,
-        "funder": "Imperial College London - ESE UROP Scheme",
-        "project": "Numerical Modelling of Arctic Sea Ice Dynamics under Coupled Atmosphere-Ocean Forcing",
-        "value_gbp": 3392,
-        "value_display": "£3k",
-        "role": "Proposer and Supervisor"
-    },
-    {
-        "year": 2026,
-        "funder": "Imperial College London - ESE UROP Scheme",
-        "project": "Numerical Simulation of Tsunami Propagation in the Tokai Region, Nankai Trough",
-        "value_gbp": 3392,
-        "value_display": "£3k",
-        "role": "Proposer and Supervisor"
     },
     {
         "year": 2025,
