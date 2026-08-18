@@ -82,7 +82,7 @@ description: >-
         <div class="tl-dates">{{ f.year }}</div>
         <div class="tl-title">{{ f.project | default: f.funder }}</div>
         {% if f.project %}<div class="tl-org">{{ f.funder }}</div>{% endif %}
-        <div class="tl-meta">{{ f.role }} · {{ f.value_display }}</div>
+        <div class="tl-meta">{{ f.role }} · {{ f.value_display }}{% if f.student %} · Student: {{ f.student }}{% endif %}</div>
       </li>
       {% endfor %}
     </ul>

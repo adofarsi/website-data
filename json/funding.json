@@ -13,7 +13,8 @@
         "project": "Numerical Modelling of Arctic Sea Ice Dynamics under Coupled Atmosphere-Ocean Forcing",
         "value_gbp": 3392,
         "value_display": "£3k",
-        "role": "Project proposer and supervisor"
+        "role": "Project proposer and supervisor",
+        "student": "Zijin Zhang"
     },
     {
         "year": 2026,
@@ -21,7 +22,8 @@
         "project": "Numerical Simulation of Tsunami Propagation in the Tokai Region, Nankai Trough",
         "value_gbp": 3392,
         "value_display": "£3k",
-        "role": "Project proposer and supervisor"
+        "role": "Project proposer and supervisor",
+        "student": "HyeMin Oh"
     },
     {
         "year": 2026,
