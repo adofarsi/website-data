@@ -85,6 +85,11 @@ description: >-
         <div class="tl-title">{{ m.outlet }}</div>
         <div class="tl-subject">{% if m.link %}<a href="{{ m.link }}">{{ m.article_title }}</a>{% else %}{{ m.article_title }}{% endif %}</div>
         {% if m.author %}<div class="tl-org">by {{ m.author }}</div>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
 
   <section class="block">
     <h2>Awards</h2>
@@ -113,12 +118,6 @@ description: >-
       {% endfor %}
     </ul>
   </section>
-
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
 
   <section class="block">
     <h2>Memberships</h2>
