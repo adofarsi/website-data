@@ -50,6 +50,36 @@ description: >-
     </div>
   </div>
 
+  <section class="block">
+    <p>I'm always interested in meaningful collaborations across academia and
+      industry — if you have an idea or project in mind,
+      <a href="{{ '/contact/' | relative_url }}">let's talk</a>. Exceptional students are
+      also invited to reach out about MSc and PhD projects.</p>
+  </section>
+
+  <section class="block">
+    <h2>Current students</h2>
+    {% assign members = site.data.students | where: "current", "y" %}
+    <div class="people-grid">
+      {% for s in members %}{% include person.html person=s folder="students" subtitle=s.degree %}{% endfor %}
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Collaborators</h2>
+    <div class="people-grid">
+      {% for c in site.data.collaborators %}{% include person.html person=c folder="collaborators" prefix=c.title %}{% endfor %}
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Previous students</h2>
+    {% assign previous = site.data.students | where_exp: "s", "s.current != 'y'" %}
+    <div class="people-grid people-grid--sm">
+      {% for s in previous %}{% include person.html person=s folder="students" %}{% endfor %}
+    </div>
+  </section>
+
   {% assign invited_talks = site.data.dissemination | where_exp: "t", "t.contribution contains 'nvited'" %}
   {% assign aria = site.data.funding | where: "funder", "Advanced Research and Invention Agency" | first %}
   <div class="stats">
@@ -72,34 +102,4 @@ description: >-
     </div>
     {% endif %}
   </div>
-
-  <section class="block">
-    <p>I'm always interested in meaningful collaborations across academia and
-      industry — if you have an idea or project in mind,
-      <a href="{{ '/contact/' | relative_url }}">let's talk</a>. Exceptional students are
-      also invited to reach out about MSc and PhD projects.</p>
-  </section>
-
-  <section class="block">
-    <h2>Students</h2>
-    {% assign members = site.data.students | where: "current", "y" %}
-    <div class="people-grid">
-      {% for s in members %}{% include person.html person=s folder="students" subtitle=s.degree %}{% endfor %}
-    </div>
-  </section>
-
-  <section class="block">
-    <h2>Collaborators</h2>
-    <div class="people-grid">
-      {% for c in site.data.collaborators %}{% include person.html person=c folder="collaborators" prefix=c.title %}{% endfor %}
-    </div>
-  </section>
-
-  <section class="block">
-    <h2>Previous students</h2>
-    {% assign previous = site.data.students | where_exp: "s", "s.current != 'y'" %}
-    <div class="people-grid people-grid--sm">
-      {% for s in previous %}{% include person.html person=s folder="students" %}{% endfor %}
-    </div>
-  </section>
 </article>
