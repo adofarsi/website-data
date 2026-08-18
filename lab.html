@@ -79,27 +79,4 @@ description: >-
       {% for s in previous %}{% include person.html person=s folder="students" %}{% endfor %}
     </div>
   </section>
-
-  {% assign invited_talks = site.data.dissemination | where_exp: "t", "t.contribution contains 'nvited'" %}
-  {% assign aria = site.data.funding | where: "funder", "Advanced Research and Invention Agency" | first %}
-  <div class="stats">
-    <div>
-      <div class="stat-value">{{ site.data.publications.size }}</div>
-      <div class="stat-label">Publications</div>
-    </div>
-    <div>
-      <div class="stat-value">{{ site.data.dissemination.size }}</div>
-      <div class="stat-label">Talks, {{ invited_talks.size }} invited</div>
-    </div>
-    <div>
-      <div class="stat-value">{{ site.data.students.size }}</div>
-      <div class="stat-label">Students supervised</div>
-    </div>
-    {% if aria %}
-    <div>
-      <div class="stat-value">{{ aria.value_display }}</div>
-      <div class="stat-label">ARIA programme ({{ aria.role }})</div>
-    </div>
-    {% endif %}
-  </div>
 </article>

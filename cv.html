@@ -61,20 +61,6 @@ description: >-
   </section>
 
   <section class="block">
-    <h2>Awards</h2>
-    <ul class="tl">
-      {% for a in site.data.awards %}
-      <li>
-        <div class="tl-dates">{{ a.date }}</div>
-        <div class="tl-title">{{ a.name }}</div>
-        <div class="tl-org">{{ a.organisation }}</div>
-        {% if a.description and a.description != "" %}<p class="tl-desc">{{ a.description }}</p>{% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
-
-  <section class="block">
     <h2>Research funding</h2>
     <ul class="tl">
       {% for f in site.data.funding %}
@@ -83,6 +69,32 @@ description: >-
         <div class="tl-title">{{ f.project | default: f.funder }}</div>
         {% if f.project %}<div class="tl-org">{{ f.funder }}</div>{% endif %}
         <div class="tl-meta">{{ f.role }} · {{ f.value_display }}{% if f.student %} · Student: {{ f.student }}{% endif %}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  {% assign media = site.data.news | where: "type", "media" | sort: "date" | reverse %}
+  {% if media.size > 0 %}
+  <section class="block">
+    <h2>Media Coverage</h2>
+    <ul class="tl">
+      {% for m in media %}
+      <li>
+        <div class="tl-dates">{{ m.date | date: "%B %Y" }}</div>
+        <div class="tl-title">{{ m.outlet }}</div>
+        <div class="tl-subject">{% if m.link %}<a href="{{ m.link }}">{{ m.article_title }}</a>{% else %}{{ m.article_title }}{% endif %}</div>
+        {% if m.author %}<div class="tl-org">by {{ m.author }}</div>{% endif %}
+
+  <section class="block">
+    <h2>Awards</h2>
+    <ul class="tl">
+      {% for a in site.data.awards %}
+      <li>
+        <div class="tl-dates">{{ a.date }}</div>
+        <div class="tl-title">{{ a.name }}</div>
+        <div class="tl-org">{{ a.organisation }}</div>
+        {% if a.description and a.description != "" %}<p class="tl-desc">{{ a.description }}</p>{% endif %}
       </li>
       {% endfor %}
     </ul>
@@ -102,17 +114,6 @@ description: >-
     </ul>
   </section>
 
-  {% assign media = site.data.news | where: "type", "media" | sort: "date" | reverse %}
-  {% if media.size > 0 %}
-  <section class="block">
-    <h2>Media Coverage</h2>
-    <ul class="tl">
-      {% for m in media %}
-      <li>
-        <div class="tl-dates">{{ m.date | date: "%B %Y" }}</div>
-        <div class="tl-title">{{ m.outlet }}</div>
-        <div class="tl-subject">{% if m.link %}<a href="{{ m.link }}">{{ m.article_title }}</a>{% else %}{{ m.article_title }}{% endif %}</div>
-        {% if m.author %}<div class="tl-org">by {{ m.author }}</div>{% endif %}
       </li>
       {% endfor %}
     </ul>
