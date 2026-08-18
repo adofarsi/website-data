@@ -194,6 +194,33 @@ section.block { margin-top: 3.2rem; }
 .centered-head > header h1 { text-align: center; }
 .section-note { color: var(--muted); font-size: 0.92rem; }
 
+/* ---------- stats strip ---------- */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+  margin-top: 2.8rem;
+  padding-top: 1.7rem;
+  border-top: 1px solid var(--line);
+}
+.stat-value {
+  font-family: var(--font-head);
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: var(--heading);
+  line-height: 1.1;
+}
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.4;
+  margin-top: 0.3rem;
+}
+@media (max-width: 640px) {
+  .stats { grid-template-columns: repeat(2, 1fr); gap: 1.5rem 1rem; }
+  .stat-value { font-size: 1.45rem; }
+}
+
 /* ---------- people cards ---------- */
 .people-grid {
   display: grid;

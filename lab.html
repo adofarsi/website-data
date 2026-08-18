@@ -11,8 +11,8 @@ description: >-
 <article class="page wide">
   <header>
     <h1>Farsi Computational Mechanics Lab</h1>
-    <p class="tagline">Differentiable simulation and machine learning for Earth and
-      engineered materials.</p>
+    <p class="tagline">Differentiable simulation and operator learning for Earth science
+      and engineering</p>
   </header>
 
   <div class="lab-top">
@@ -25,11 +25,18 @@ description: >-
         using a newly developed finite element&#8209;based operator&#8209;learning framework. Focus areas
         are:</p>
       <ul>
-        <li>Fracture, faulting, and contact in heterogeneous solids;</li>
-        <li>Multiphase flow and transport in porous media;</li>
-        <li>Strongly coupled multiphysics processes;</li>
-        <li>Scalable algorithms and software for large&#8209;scale HPC simulation;</li>
-        <li>Inverse modelling and data assimilation via adjoint methods and operator learning.</li>
+        <li>Fracture, faulting, and contact in heterogeneous solids —
+          <em>rock mechanics, fibre&#8209;reinforced concrete tunnel linings, catalyst pellet
+          strength</em>;</li>
+        <li>Multiphase flow and transport in porous media —
+          <em>wellbore stability, geothermal wells, permeability of growing faults</em>;</li>
+        <li>Strongly coupled multiphysics processes —
+          <em>Arctic sea&#8209;ice dynamics</em>;</li>
+        <li>Scalable algorithms and software for large&#8209;scale HPC simulation —
+          <em>tanuki™/PyFDEM</em>;</li>
+        <li>Inverse modelling and data assimilation via adjoint methods and operator
+          learning — <em>missing&#8209;physics discovery, digital twins of Westerly
+          granite</em>.</li>
       </ul>
     </div>
     <div>
@@ -41,6 +48,29 @@ description: >-
         <iframe src="https://www.youtube-nocookie.com/embed/diiafyUDy6Y" title="Bridging Computational Mechanics and Machine Learning in Geomechanics — ARMA invited seminar" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
     </div>
+  </div>
+
+  {% assign invited_talks = site.data.dissemination | where_exp: "t", "t.contribution contains 'nvited'" %}
+  {% assign aria = site.data.funding | where: "funder", "Advanced Research and Invention Agency" | first %}
+  <div class="stats">
+    <div>
+      <div class="stat-value">{{ site.data.publications.size }}</div>
+      <div class="stat-label">Publications</div>
+    </div>
+    <div>
+      <div class="stat-value">{{ site.data.dissemination.size }}</div>
+      <div class="stat-label">Talks, {{ invited_talks.size }} invited</div>
+    </div>
+    <div>
+      <div class="stat-value">{{ site.data.students.size }}</div>
+      <div class="stat-label">Students supervised</div>
+    </div>
+    {% if aria %}
+    <div>
+      <div class="stat-value">{{ aria.value_display }}</div>
+      <div class="stat-label">ARIA programme ({{ aria.role }})</div>
+    </div>
+    {% endif %}
   </div>
 
   <section class="block">
