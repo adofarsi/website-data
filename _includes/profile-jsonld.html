@@ -1,0 +1,56 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": {{ site.person.profile_id | jsonify }},
+  "url": {{ '/' | absolute_url | jsonify }},
+  "name": "Dr Ado Farsi",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": {{ site.person.id | jsonify }},
+    "name": "Ado Farsi",
+    "givenName": "Ado",
+    "familyName": "Farsi",
+    "honorificPrefix": "Dr",
+    "description": {{ site.person.description | jsonify }},
+    "url": {{ '/' | absolute_url | jsonify }},
+    "image": [
+      {{ site.person.images.square | absolute_url | jsonify }},
+      {{ site.person.images.landscape_4x3 | absolute_url | jsonify }}
+    ],
+    "jobTitle": {{ site.person.job_title | jsonify }},
+    "affiliation": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Imperial College London",
+        "url": "https://www.imperial.ac.uk/"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "University College London",
+        "alternateName": "UCL",
+        "url": "https://www.ucl.ac.uk/"
+      },
+      {
+        "@type": "Organization",
+        "name": "Tanuki Technologies",
+        "url": {{ site.profiles.tanuki | jsonify }}
+      }
+    ],
+    "knowsAbout": [
+      "Computational mechanics",
+      "Finite element method",
+      "Discrete element method",
+      "Machine learning",
+      "Rock mechanics",
+      "Sea ice modelling",
+      "Fracture mechanics",
+      "Porous media flow"
+    ],
+    "sameAs": [
+      {% assign profile_keys = "orcid,wikidata,github,scholar,linkedin,imperial,ucl" | split: "," %}
+      {% for k in profile_keys %}{{ site.profiles[k] | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}
+    ]
+  }
+}
+</script>

@@ -7,6 +7,18 @@ description: >-
 author: Ado Farsi
 email: ado.farsi@imperial.ac.uk
 
+person:
+  profile_id: "https://www.adofarsi.com/#profile"
+  id: "https://www.adofarsi.com/#person"
+  description: >-
+    Dr Ado Farsi is a computational mechanics scientist at Imperial College London
+    and University College London (UCL), as well as the co-founder of Tanuki
+    Technologies.
+  job_title: Computational Mechanics Scientist
+  images:
+    square: /images/ado_farsi.jpg
+    landscape_4x3: /images/ado-farsi-portrait-4x3.jpg
+
 # Live at https://www.adofarsi.com (custom domain via the CNAME file;
 # GitHub redirects adofarsi.github.io/website-data here)
 url: "https://www.adofarsi.com"

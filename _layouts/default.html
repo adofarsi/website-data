@@ -31,11 +31,7 @@
   <meta name="twitter:image" content="{{ share_image }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   {%- if page.url == "/" %}
-  {%- assign alma_maters = site.data.education | map: "institution" | uniq %}
-  {%- assign media_coverage = site.data.news | where: "type", "media" %}
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Person","name":"Ado Farsi","givenName":"Ado","familyName":"Farsi","honorificPrefix":"Dr","description":{{ head_desc | jsonify }},"url":"{{ '/' | absolute_url }}","image":"{{ share_image }}","jobTitle":"Research Fellow","affiliation":[{"@type":"CollegeOrUniversity","name":"University College London","url":"https://www.ucl.ac.uk/"},{"@type":"CollegeOrUniversity","name":"Imperial College London","url":"https://www.imperial.ac.uk/"},{"@type":"Organization","name":"Tanuki Technologies","url":"{{ site.profiles.tanuki }}"}],"alumniOf":[{% for a in alma_maters %}{"@type":"CollegeOrUniversity","name":{{ a | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}],"knowsAbout":["Computational mechanics","Finite element method","Discrete element method","Machine learning","Rock mechanics","Sea ice modelling","Fracture mechanics","Porous media flow"],"sameAs":[{% assign profile_keys = "orcid,wikidata,github,scholar,linkedin,imperial,ucl" | split: "," %}{% for k in profile_keys %}{{ site.profiles[k] | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]{% if media_coverage.size > 0 %},"subjectOf":[{% for m in media_coverage %}{"@type":"NewsArticle","headline":{{ m.article_title | jsonify }},"url":{{ m.link | jsonify }},"datePublished":{{ m.date | jsonify }},"publisher":{"@type":"Organization","name":{{ m.outlet | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}}
-  </script>
+  {% include profile-jsonld.html %}
   {%- endif %}
 </head>
 <body{% if page.band == "gray" %} class="band-gray"{% endif %}>
