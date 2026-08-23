@@ -8,10 +8,21 @@ description: >-
   CV of Ado Farsi — education, research positions at Imperial College London and UCL,
   awards, research funding, academic service and memberships.
 ---
-<article class="page measure">
+<div class="section-nav-shell" data-section-navigation
+  data-section-overview-label="Overview" data-section-heading-selector=":scope > section > h2">
+  <nav class="section-nav-rail" aria-label="CV sections" hidden>
+    <ol></ol>
+  </nav>
+
+  <article class="page section-nav-page">
   <header>
     <h1>Curriculum Vitae</h1>
   </header>
+
+  <div class="section-nav-picker" hidden>
+    <label for="section-nav-select">Section</label>
+    <select id="section-nav-select"></select>
+  </div>
 
   <div class="about-grid">
     {% assign portrait = site.static_files | where: "path", "/images/ado_farsi.jpg" | first %}
@@ -124,10 +135,13 @@ description: >-
     <ul class="tl">
       {% for m in site.data.memberships %}
       <li>
-        <div class="tl-dates">{{ m.start_date }} – {{ m.end_date }}</div>
+        <div class="tl-dates">{{ m.start_date }}</div>
         <div class="tl-title">{{ m.organisation }}</div>
       </li>
       {% endfor %}
     </ul>
   </section>
-</article>
+  </article>
+</div>
+
+<script src="{{ '/assets/js/section-navigation.js' | relative_url }}"></script>

@@ -7,23 +7,33 @@ description: >-
   Courses taught by Dr Ado Farsi at Imperial College London and UCL: mathematics,
   numerical methods and engineering geology, plus industry training.
 ---
-<article class="page measure">
+<div class="section-nav-shell" data-section-navigation
+  data-section-heading-selector=":scope > section > h2">
+  <nav class="section-nav-rail" aria-label="Teaching sections" hidden>
+    <ol></ol>
+  </nav>
+
+<article class="page section-nav-page">
   <header>
     <h1>Teaching</h1>
   </header>
+  <div class="section-nav-picker" hidden>
+    <label for="section-nav-select">Section</label>
+    <select id="section-nav-select"></select>
+  </div>
 
   <section class="block">
     <h2>Imperial College London and University College London (UCL)</h2>
     <p>I have taught a range of undergraduate and postgraduate courses at Imperial
-      College London and UCL, including: <strong>Maths Methods 3</strong> — vector calculus
-      and Fourier analysis; <strong>Physics for Geoscientists</strong> — mechanics,
-      electricity and magnetism; <strong>Numerical Methods 1</strong> — numerical methods in
-      Python; <strong>Numerical Methods for Earth Sciences</strong> — ordinary and partial
-      differential equations, and finite differences; <strong>Coastal Engineering</strong> —
+      College London and UCL, including: Maths Methods 3 — vector calculus
+      and Fourier analysis; Physics for Geoscientists — mechanics,
+      electricity and magnetism; Numerical Methods 1 — numerical methods in
+      Python; Numerical Methods for Earth Sciences — ordinary and partial
+      differential equations, and finite differences; Coastal Engineering —
       coastal structures (design and case histories) and slope stability;
-      <strong>Environmental and Engineering Geology</strong> — excavation, blasting,
+      Environmental and Engineering Geology — excavation, blasting,
       geomaterials (properties, testing and uses), and construction case histories; and
-      <strong>Engineering Geology and Slope Stability</strong>.</p>
+      Engineering Geology and Slope Stability.</p>
     <div class="fig-row">
       <figure>
         <img src="{{ '/images/teaching_field_trip.png' | relative_url }}" alt="Teaching slope stability analysis on a whiteboard to students during an engineering geology field practical" loading="lazy">
@@ -74,3 +84,6 @@ description: >-
       universities.</p>
   </section>
 </article>
+</div>
+
+<script src="{{ '/assets/js/section-navigation.js' | relative_url }}"></script>
