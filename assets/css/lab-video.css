@@ -7,6 +7,10 @@
   color: #fff;
 }
 
+.video.video--lite {
+  container-type: inline-size;
+}
+
 .video-poster__minimal-figure {
   position: absolute;
   inset: -5%;
@@ -34,8 +38,8 @@
   top: clamp(0.65rem, 1.8vw, 1rem);
   left: clamp(0.7rem, 2vw, 1.1rem);
   display: grid;
-  width: clamp(5.8rem, 15vw, 8.4rem);
-  height: clamp(1.65rem, 4.2vw, 2.35rem);
+  width: clamp(4.6rem, 12vw, 6.7rem);
+  height: clamp(1.3rem, 3.35vw, 1.88rem);
   padding: 0;
   background: transparent;
   place-items: center;
@@ -115,6 +119,27 @@
 .video-poster:hover .video-poster__minimal-logo img {
   filter: none;
   transform: none;
+}
+
+@container (max-width: 26rem) {
+  .video-poster__minimal-title {
+    max-width: 70%;
+    font-size: clamp(0.66rem, 2.8cqw, 0.78rem);
+  }
+
+  .video-poster__centre-action {
+    top: 50%;
+    gap: 0.35rem;
+  }
+
+  .video-poster__centre-play {
+    width: clamp(2.75rem, 14cqw, 3.35rem);
+    height: clamp(2.75rem, 14cqw, 3.35rem);
+  }
+
+  .video-poster__centre-label {
+    font-size: 0.68rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
