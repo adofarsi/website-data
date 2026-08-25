@@ -29,7 +29,8 @@ description: >-
     <div class="contact-field">
       <label for="contact-email">Email</label>
       <input id="contact-email" name="email" type="email" autocomplete="email"
-        inputmode="email" maxlength="254" required>
+        inputmode="email" maxlength="254"
+        pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required>
     </div>
 
     <div class="contact-field">
@@ -45,7 +46,7 @@ description: >-
     </div>
 
     <button class="contact-submit" type="submit">Send message</button>
-    <p class="contact-status" role="status" aria-live="polite"
+    <p class="contact-status" role="status" aria-live="polite" tabindex="-1"
       data-contact-status hidden></p>
   </form>
 </article>

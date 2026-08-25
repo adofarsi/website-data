@@ -103,6 +103,35 @@
   color: #9a3232;
 }
 
+.contact-form.is-sent > :not(.contact-status) {
+  display: none;
+}
+
+.contact-form.is-sent {
+  display: block;
+}
+
+.contact-form.is-sent .contact-status {
+  margin: 0;
+  color: #2c3240;
+  outline: none;
+}
+
+.contact-success-heading,
+.contact-success-message {
+  display: block;
+}
+
+.contact-success-heading {
+  margin-bottom: 0.55rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.contact-success-message {
+  color: #4f5664;
+}
+
 .contact-status[hidden] {
   display: none;
 }

@@ -531,9 +531,32 @@ figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 0.5rem; }
   .section-nav-mobile,
   .section-nav-mobile > div,
   .section-nav-mobile ul {
-    justify-content: flex-end;
-    text-align: right;
+    justify-content: flex-start;
+    text-align: left;
   }
+
+  .section-nav-mobile a {
+    font-size: 0.74rem;
+    background: transparent;
+    border-bottom-color: transparent;
+    box-shadow: none;
+    text-decoration: none;
+  }
+
+  .section-nav-mobile a[aria-current],
+  .section-nav-mobile a.is-active,
+  .section-nav-mobile a.active {
+    border-bottom-color: currentColor;
+  }
+}
+
+/* Underline only the current page in the main navigation. */
+.site-header .links a {
+  border-bottom-color: transparent;
+}
+
+.site-header .links a[aria-current="page"] {
+  border-bottom-color: currentColor;
 }
 
 /* Locally previewed, click-to-load YouTube seminar. */
