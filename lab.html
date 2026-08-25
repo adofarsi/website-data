@@ -8,6 +8,8 @@ description: >-
   The Farsi Computational Mechanics Lab builds high-performance numerical models for
   fracture, porous media flow and coupled multiphysics in Earth sciences.
 ---
+<link rel="stylesheet" href="{{ '/assets/css/lab-video.css' | relative_url }}">
+
 <article class="page wide">
   <header>
     <h1>Farsi Computational Mechanics Lab</h1>
@@ -24,19 +26,30 @@ description: >-
         discrete&#8209;element methods, and adjoint&#8209;based data assimilation and optimisation, also
         using a newly developed finite element&#8209;based operator&#8209;learning framework. Focus areas
         are:</p>
-      <ul>
-        <li>Fracture, faulting, and contact in heterogeneous solids —
-          <em>rock and ice mechanics, fibre&#8209;reinforced concrete tunnel linings, catalyst pellet
-          strength</em>;</li>
-        <li>Multiphase flow and transport in porous media —
-          <em>wellbore stability, geothermal wells, permeability of growing faults</em>;</li>
-        <li>Strongly coupled multiphysics processes —
-          <em>Arctic sea&#8209;ice dynamics</em>;</li>
-        <li>Scalable algorithms and software for large&#8209;scale HPC simulation —
-          <em>tanuki™/PyFDEM</em>;</li>
-        <li>Inverse modelling and data assimilation via adjoint methods and operator
-          learning — <em>missing&#8209;physics discovery, digital twins of Westerly
-          granite</em>.</li>
+      <ul class="tl lab-focus-list">
+        <li>
+          <h3>Fracture, faulting, and contact</h3>
+          <p>Research on these processes in heterogeneous solids spans rock and ice mechanics,
+            fibre&#8209;reinforced concrete tunnel linings, and catalyst pellet strength.</p>
+        </li>
+        <li>
+          <h3>Multiphase flow and transport</h3>
+          <p>Simulations of flow and transport in porous media address wellbore stability,
+            geothermal wells, and the permeability of growing faults.</p>
+        </li>
+        <li>
+          <h3>Strongly coupled multiphysics</h3>
+          <p>Models of strongly coupled processes include Arctic sea&#8209;ice dynamics.</p>
+        </li>
+        <li>
+          <h3>Scalable simulation software</h3>
+          <p>Scalable algorithms and software enable large&#8209;scale HPC simulation.</p>
+        </li>
+        <li>
+          <h3>Inverse modelling and data assimilation</h3>
+          <p>Adjoint methods and operator learning support missing&#8209;physics discovery and
+            digital twins of Westerly granite.</p>
+        </li>
       </ul>
     </div>
     <div>
@@ -44,8 +57,25 @@ description: >-
         seminar for the <a href="https://armarocks.org/">American Rock Mechanics
         Association</a>, <em>Bridging Computational Mechanics and Machine Learning in
         Geomechanics</em> below:</p>
-      <div class="video">
-        <iframe src="https://www.youtube-nocookie.com/embed/diiafyUDy6Y" title="Bridging Computational Mechanics and Machine Learning in Geomechanics — ARMA invited seminar" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div class="video video--lite" data-youtube-lite data-video-id="diiafyUDy6Y"
+        data-video-title="Bridging Computational Mechanics and Machine Learning in Geomechanics — ARMA invited seminar">
+        <button class="video-poster" type="button"
+          aria-label="Play Bridging Computational Mechanics and Machine Learning in Geomechanics">
+          <span class="video-poster__composition video-poster__composition--minimal">
+            <span class="video-poster__minimal-logo">
+              <img src="{{ '/images/arma-logo-white.png' | relative_url }}" alt="" loading="lazy">
+            </span>
+            <span class="video-poster__minimal-title">Bridging Computational Mechanics and
+              Machine Learning in Geomechanics</span>
+            <span class="video-poster__centre-action">
+              <span class="video-poster__centre-play" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6.6 17.2 12 9 17.4Z"/></svg>
+              </span>
+              <span class="video-poster__centre-label">Play seminar</span>
+            </span>
+          </span>
+        </button>
+        <noscript><p><a href="https://www.youtube.com/watch?v=diiafyUDy6Y">Watch the invited seminar on YouTube</a>.</p></noscript>
       </div>
     </div>
   </div>
@@ -80,3 +110,5 @@ description: >-
     </div>
   </section>
 </article>
+
+<script src="{{ '/assets/js/lite-youtube.js' | relative_url }}" defer></script>

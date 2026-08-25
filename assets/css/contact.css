@@ -1,0 +1,129 @@
+.contact-page {
+  max-width: 48rem;
+}
+
+.contact-page .intro {
+  max-width: 43rem;
+}
+
+.contact-form {
+  display: grid;
+  gap: 1.3rem;
+  max-width: 38rem;
+  margin-top: 2.5rem;
+}
+
+.contact-field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.contact-field label {
+  color: #4f5664;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: color 140ms ease;
+}
+
+.contact-field:focus-within label {
+  color: #2f64d6;
+}
+
+.contact-field input,
+.contact-field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #bec4cf;
+  border-radius: 0;
+  background: transparent;
+  color: #2c3240;
+  font: inherit;
+  line-height: 1.55;
+  padding: 0.55rem 0 0.65rem;
+  transition: background-color 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.contact-field textarea {
+  min-height: 12rem;
+  border: 1px solid #d3d8e0;
+  border-radius: 0.4rem;
+  padding: 0.75rem 0.8rem;
+  resize: vertical;
+}
+
+.contact-field input:hover,
+.contact-field textarea:hover {
+  border-color: #9fa7b5;
+}
+
+.contact-field input:focus,
+.contact-field textarea:focus {
+  border-color: #2f64d6;
+  box-shadow: 0 2px 0 rgba(47, 100, 214, 0.1);
+  outline: none;
+}
+
+.contact-submit {
+  justify-self: start;
+  border: 1px solid #2f64d6;
+  border-radius: 0.5rem;
+  background: #2f64d6;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 500;
+  line-height: 1;
+  padding: 0.82rem 1.15rem;
+  transition: background-color 140ms ease, border-color 140ms ease;
+}
+
+.contact-submit:hover {
+  border-color: #2452b8;
+  background: #2452b8;
+}
+
+.contact-submit:focus-visible {
+  outline: 2px solid #2f64d6;
+  outline-offset: 3px;
+}
+
+.contact-submit:disabled {
+  cursor: wait;
+  opacity: 0.62;
+}
+
+.contact-status {
+  margin: -0.15rem 0 0;
+  color: #2d6249;
+}
+
+.contact-status[data-state="error"] {
+  color: #9a3232;
+}
+
+.contact-status[hidden] {
+  display: none;
+}
+
+.contact-honeypot {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+}
+
+@media (max-width: 42rem) {
+  .contact-form {
+    gap: 1.15rem;
+    margin-top: 2rem;
+  }
+
+  .contact-field textarea {
+    min-height: 10rem;
+  }
+}

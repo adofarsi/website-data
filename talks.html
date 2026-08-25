@@ -14,15 +14,14 @@ description: >-
   <nav class="section-nav-rail" aria-label="Talk years" hidden>
     <ol></ol>
   </nav>
+  <nav class="section-nav-mobile" aria-label="Talk years" hidden>
+    <div class="section-nav-mobile-links"></div>
+  </nav>
 
 <article class="page section-nav-page{% if page.centered %} centered-head{% endif %}">
   <header>
     <h1>Talks</h1>
   </header>
-  <div class="section-nav-picker" hidden>
-    <label for="section-nav-select">Year</label>
-    <select id="section-nav-select"></select>
-  </div>
   {% assign groups = site.data.dissemination | group_by_exp: "t", "t.date | split: ' ' | last" %}
   {% for g in groups %}
   <h2 class="year-h">{{ g.name }}</h2>

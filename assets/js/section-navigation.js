@@ -7,8 +7,8 @@
   var page = shell.querySelector(".section-nav-page");
   var rail = shell.querySelector(".section-nav-rail");
   var railList = rail.querySelector("ol");
-  var picker = shell.querySelector(".section-nav-picker");
-  var select = picker.querySelector("select");
+  var mobileNav = shell.querySelector(".section-nav-mobile");
+  var mobileLinks = mobileNav.querySelector(".section-nav-mobile-links");
   var headingSelector = shell.dataset.sectionHeadingSelector || ":scope > section > h2";
   var headings = [];
   var overviewLabel = shell.dataset.sectionOverviewLabel;
@@ -50,14 +50,28 @@
     railList.appendChild(listItem);
     item.link = link;
 
-    var option = document.createElement("option");
-    option.value = id;
-    option.textContent = item.label;
-    select.appendChild(option);
+    var mobileLink = document.createElement("a");
+    mobileLink.href = "#" + id;
+    mobileLink.textContent = item.label;
+    mobileLinks.appendChild(mobileLink);
+    item.mobileLink = mobileLink;
   });
 
   rail.hidden = false;
-  picker.hidden = false;
+  mobileNav.hidden = false;
+
+  function updateRailLineBounds() {
+    if (window.getComputedStyle(rail).display === "none") return;
+    var links = railList.querySelectorAll("a");
+    if (!links.length) return;
+    var listRect = railList.getBoundingClientRect();
+    var firstRect = links[0].getBoundingClientRect();
+    var lastRect = links[links.length - 1].getBoundingClientRect();
+    var lineTop = firstRect.top - listRect.top + firstRect.height / 2;
+    var lineBottom = listRect.bottom - lastRect.top - lastRect.height / 2;
+    railList.style.setProperty("--rail-line-top", lineTop + "px");
+    railList.style.setProperty("--rail-line-bottom", lineBottom + "px");
+  }
 
   var siteHeader = document.querySelector(".site-header");
   function updateHeaderHeight() {
@@ -72,11 +86,12 @@
     headings.forEach(function (item, itemIndex) {
       if (itemIndex === index) {
         item.link.setAttribute("aria-current", "location");
+        item.mobileLink.setAttribute("aria-current", "location");
       } else {
         item.link.removeAttribute("aria-current");
+        item.mobileLink.removeAttribute("aria-current");
       }
     });
-    select.value = headings[index].heading.id;
   }
 
   var ticking = false;
@@ -102,16 +117,10 @@
     window.requestAnimationFrame(updateScrollspy);
   }
 
-  select.addEventListener("change", function () {
-    var target = document.getElementById(select.value);
-    if (!target) return;
-    history.pushState(null, "", "#" + target.id);
-    target.scrollIntoView({ block: "start" });
-  });
-
   window.addEventListener("scroll", requestScrollspy, { passive: true });
   window.addEventListener("resize", function () {
     updateHeaderHeight();
+    updateRailLineBounds();
     requestScrollspy();
   });
 
@@ -123,6 +132,7 @@
   }
 
   updateHeaderHeight();
+  updateRailLineBounds();
   updateScrollspy();
 
   if (window.location.hash) {
