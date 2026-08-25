@@ -8,12 +8,25 @@ description: >-
   Publications by Ado Farsi in computational mechanics, geomechanics, granular
   materials and machine learning, with PDF and DOI links.
 ---
-<article class="page measure{% if page.centered %} centered-head{% endif %}">
+<div class="section-nav-shell" data-section-navigation
+  data-section-heading-selector=":scope > .year-h">
+  <nav class="section-nav-rail" aria-label="Publication years" hidden>
+    <ol></ol>
+  </nav>
+
+<article class="page section-nav-page{% if page.centered %} centered-head{% endif %}">
   <header>
     <h1>Publications</h1>
   </header>
+  <div class="section-nav-picker" hidden>
+    <label for="section-nav-select">Year</label>
+    <select id="section-nav-select"></select>
+  </div>
+  {% assign groups = site.data.publications | group_by: "year" %}
+  {% for g in groups %}
+  <h2 class="year-h">{{ g.name }}</h2>
   <ul class="ref-list">
-    {% for pub in site.data.publications %}
+    {% for pub in g.items %}
     <li class="ref">
       <span class="ref-id">[{{ pub.id }}]</span>
       <span class="ref-body">
@@ -31,4 +44,8 @@ description: >-
     </li>
     {% endfor %}
   </ul>
+  {% endfor %}
 </article>
+</div>
+
+<script src="{{ '/assets/js/section-navigation.js' | relative_url }}"></script>

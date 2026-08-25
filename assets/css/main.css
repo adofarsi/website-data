@@ -365,14 +365,17 @@ section.block { margin-top: 3.2rem; }
   grid-column: 1;
   grid-row: 1;
   position: sticky;
-  top: calc(50vh + 1.75rem);
+  top: 30vh;
   align-self: start;
-  max-height: calc(100vh - var(--site-header-height, 4rem) - 3rem);
-  transform: translateY(-50%);
-  overflow-y: auto;
+  height: 40vh;
+  transform: translateX(-1rem);
 }
 .section-nav-rail ol {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   list-style: none;
   margin: 0;
   padding: 0.2rem 0;
