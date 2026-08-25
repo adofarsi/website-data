@@ -451,13 +451,13 @@ section.block { margin-top: 3.2rem; }
   .section-nav-rail { display: none; }
   .section-nav-mobile {
     position: sticky;
-    top: var(--site-header-height, 4rem);
+    top: calc(var(--site-header-height, 4rem) - 1px);
     z-index: 8;
     display: block;
     width: 100vw;
     margin: 0 0 0 calc(50% - 50vw);
     border-bottom: 1px solid var(--line);
-    background: rgba(255, 255, 255, 0.97);
+    background: #fff;
     box-shadow: 0 1px 6px rgba(44, 49, 63, 0.04);
     backdrop-filter: blur(10px);
   }
