@@ -54,12 +54,14 @@ description: >-
 
   <section class="block">
     <h2>Positions</h2>
-    {% assign now_ts = site.time | date: "%s" | plus: 0 %}
+    {% assign now_ym = site.time | date: "%Y%m" | plus: 0 %}
     <ul class="tl">
       {% for p in site.data.positions %}
-      {% assign start_ts = p.start_date | date: "%s" | plus: 0 %}
+      {% assign start_ym = p.start_date | date: "%Y%m" | plus: 0 %}
+      {% assign end_ym = p.end_date | date: "%Y%m" | plus: 0 %}
+      {% assign end_date_lower = p.end_date | downcase %}
       <li>
-        <div class="tl-dates">{{ p.start_date }}{% unless start_ts > now_ts %} – {{ p.end_date }}{% endunless %}</div>
+        <div class="tl-dates">{{ p.start_date }} – {% if end_date_lower == "present" or start_ym <= now_ym and end_ym >= now_ym %}present{% else %}{{ p.end_date }}{% endif %}</div>
         <div class="tl-title">{{ p.title }}</div>
         {% if p.subject %}<div class="tl-subject">{{ p.subject }}</div>{% endif %}
         <div class="tl-org">{{ p.organisation }}, {{ p.city }}, {{ p.country }}</div>
