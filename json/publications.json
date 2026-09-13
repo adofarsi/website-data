@@ -6,7 +6,7 @@
    "Paganini A"
   ],
   "title": "Shape Optimisation of Nonlinear Naghdi Shells on Discrete Geometries",
-  "publisher": "Computers & Structures (submitted)",
+  "publisher": "Computers & Structures (under review)",
   "year": 2026,
   "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/shape_optimisation_of_nonlinear_naghdi_shells_on_discrete_geometries.pdf?raw=true",
   "doi": "https://doi.org/10.48550/arXiv.2608.10342",
@@ -20,10 +20,10 @@
    "Ham DA"
   ],
   "title": "Missing Physics Discovery through Fully Differentiable Finite Element-Based Machine Learning",
-  "publisher": "Scientific Reports (in press)",
+  "publisher": "Scientific Reports",
   "year": 2026,
   "pdf": "https://github.com/adofarsi/website-data/blob/main/pdf/missing_physics_discovery_through_fully_differentiable_finite_element-based_machine_learning.pdf?raw=true",
-  "doi": "https://arxiv.org/abs/2507.15787",
+  "doi": "https://doi.org/10.1038/s41598-026-65125-z",
   "type": "journal"
  },
  {
