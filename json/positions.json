@@ -6,7 +6,7 @@
         "title": "Research Associate (Co-Investigator)",
         "subject": "Hybrid Differentiable ML/AI-Physics Simulation",
         "start_date": "September 2026",
-        "end_date": "August 2027",
+        "end_date": "present",
         "description": "Funded by the Science and Technology Facilities Council (STFC) via the CoSeC NPRAISE programme, working with Prof. David Ham. In this role, I am the Research Technical Professional (RTP), based in Imperial College London's Department of Mathematics and working as a member of the Firedrake team. I develop hybrid differentiable ML/AI-physics simulation capabilities within the Firedrake finite element framework, integrating machine learning approaches with physics-based solvers for high-performance scientific computing applications."
     },
     {
@@ -37,7 +37,7 @@
         "subject": "Machine Learning for Fluid Flow in Rock Faults",
         "start_date": "January 2023",
         "end_date": "June 2024",
-        "description": "Developed a digital twin of Westerly granite samples using an adjoint-based machine-learning framework to study the evolution of fluid transport properties and heterogeneity during fault development. Presented this research in talks at the American Geophysical Union (AGU) and European Geosciences Union (EGU) conferences. Resulted in two journal publications (one published and one under submission)."
+        "description": "Developed a digital twin of Westerly granite samples using an adjoint-based machine-learning framework to study the evolution of fluid transport properties and heterogeneity during fault development. Presented this research in talks at the American Geophysical Union (AGU) and European Geosciences Union (EGU) conferences. Resulted in one published journal article and a further manuscript in preparation for submission."
     },
     {
         "organisation": "Imperial College London",
