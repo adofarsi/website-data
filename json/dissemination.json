@@ -1,5 +1,15 @@
 [
     {
+    "id": 36,
+    "name": "USACM Energy & Earth Systems TTA Webinar",
+    "contribution": "Speaker",
+    "title": "Modelling the Changing Arctic: Sea-Ice Dynamics with tanuki™ FDEM",
+    "link": "https://www.usacm.org/site_announcements_detail.cfm?pk_association_announcement=25054",
+    "location": "Virtual",
+    "date": "2 December 2026",
+    "type": "seminar"
+    },
+    {
     "id": 35,
     "name": "17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering",
     "contribution": "Speaker",
