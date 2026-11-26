@@ -1,5 +1,41 @@
 [
  {
+  "id": 26,
+  "authors": [
+   "Farsi A"
+  ],
+  "title": "Machine learning and the identifiability of neural hyperelastic constitutive models",
+  "publisher": "Manuscript in preparation",
+  "year": 2026,
+  "pdf": "",
+  "doi": "",
+  "type": "in_preparation"
+ },
+ {
+  "id": 25,
+  "authors": [
+   "Farsi A"
+  ],
+  "title": "A finite–discrete element framework for regional sea-ice fragmentation and collapse",
+  "publisher": "Manuscript in preparation",
+  "year": 2026,
+  "pdf": "",
+  "doi": "",
+  "type": "in_preparation"
+ },
+ {
+  "id": 24,
+  "authors": [
+   "Farsi A"
+  ],
+  "title": "Identifiability of Arctic sea-ice rheology from satellite-observed drift",
+  "publisher": "Manuscript in preparation",
+  "year": 2026,
+  "pdf": "",
+  "doi": "",
+  "type": "in_preparation"
+ },
+ {
   "id": 23,
   "authors": [
    "Farsi A",
@@ -7,11 +43,11 @@
    "Brantut N"
   ],
   "title": "Heterogeneous and episodic permeability evolution and correlation with acoustic emission activity during faulting in granite",
-  "publisher": "In preparation for submission to Journal of Geophysical Research: Solid Earth",
+  "publisher": "Journal of Geophysical Research: Solid Earth (submitted for peer review)",
   "year": 2026,
-  "pdf": "",
-  "doi": "",
-  "type": "in_preparation"
+  "pdf": "https://arxiv.org/pdf/2611.13272",
+  "doi": "https://doi.org/10.48550/arXiv.2611.13272",
+  "type": "preprint"
  },
  {
   "id": 22,
