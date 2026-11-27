@@ -10,10 +10,10 @@ description: >-
 ---
 <div class="section-nav-shell" data-section-navigation
   data-section-heading-selector=":scope > .year-h">
-  <nav class="section-nav-rail" aria-label="Publication years" hidden>
+  <nav class="section-nav-rail" aria-label="Publication sections" hidden>
     <ol></ol>
   </nav>
-  <nav class="section-nav-mobile" aria-label="Publication years" hidden>
+  <nav class="section-nav-mobile" aria-label="Publication sections" hidden>
     <div class="section-nav-mobile-links"></div>
   </nav>
 
@@ -21,28 +21,14 @@ description: >-
   <header>
     <h1>Publications</h1>
   </header>
-  {% assign groups = site.data.publications | group_by: "year" %}
-  {% for g in groups %}
-  <h2 class="year-h">{{ g.name }}</h2>
-  <ul class="ref-list">
-    {% for pub in g.items %}
-    <li class="ref">
-      <span class="ref-id">[{{ pub.id }}]</span>
-      <span class="ref-body">
-        {% for a in pub.authors %}{% if a == "Farsi A" %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
-        ({{ pub.year }})
-        <span class="ref-title">{{ pub.title }}.</span>
-        <em>{{ pub.publisher }}</em>.
-        {% if pub.pdf and pub.pdf != "" %}
-          {% assign pdfpath = pub.pdf | replace: "https://github.com/adofarsi/website-data/blob/main/", "/" | replace: "?raw=true", "" %}
-          {% if pdfpath contains "http" %}(<a href="{{ pdfpath }}">pdf</a>)
-          {% else %}(<a href="{{ pdfpath | relative_url }}">pdf</a>){% endif %}
-        {% endif %}
-        {% if pub.doi and pub.doi != "" %}(<a href="{{ pub.doi }}">doi</a>){% endif %}
-      </span>
-    </li>
-    {% endfor %}
-  </ul>
+  {% assign manuscripts = site.data.publications | where: "type", "in_preparation" %}
+  {% if manuscripts.size > 0 %}
+    {% include publication-group.html heading="In preparation" entries=manuscripts %}
+  {% endif %}
+  {% assign dated = site.data.publications | where_exp: "pub", "pub.type != 'in_preparation'" %}
+  {% assign years = dated | group_by: "year" | sort: "name" | reverse %}
+  {% for group in years %}
+    {% include publication-group.html heading=group.name entries=group.items %}
   {% endfor %}
 </article>
 </div>

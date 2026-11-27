@@ -1,0 +1,20 @@
+<h2 class="year-h">{{ include.heading }}</h2>
+<ul class="ref-list">
+  {% for pub in include.entries %}
+  <li class="ref">
+    <span class="ref-id">[{{ pub.id }}]</span>
+    <span class="ref-body">
+      {% for a in pub.authors %}{% if a == "Farsi A" %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+      {% if pub.year and pub.type != "in_preparation" %}({{ pub.year }}){% endif %}
+      <span class="ref-title">{{ pub.title }}.</span>
+      <em>{{ pub.publisher }}</em>.
+      {% if pub.pdf and pub.pdf != "" %}
+        {% assign pdfpath = pub.pdf | replace: "https://github.com/adofarsi/website-data/blob/main/", "/" | replace: "?raw=true", "" %}
+        {% if pdfpath contains "http" %}(<a href="{{ pdfpath }}">pdf</a>)
+        {% else %}(<a href="{{ pdfpath | relative_url }}">pdf</a>){% endif %}
+      {% endif %}
+      {% if pub.doi and pub.doi != "" %}(<a href="{{ pub.doi }}">doi</a>){% endif %}
+    </span>
+  </li>
+  {% endfor %}
+</ul>
